@@ -1,7 +1,41 @@
 #app-header {
-  background: green;
-  color: white;
-  height: 50px;
+  background: #C0E4DA;
+  color: black;
   text-align: center;
-  padding: 20px;
+  .navigation_menu {
+    width: 44%;
+    font-size: 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 14px 0 0 0;
+    & li{
+      color: #000;
+      font-size: 10px;
+      list-style: none;
+      a {
+        color: #000;
+        font-weight: 700;
+      }
+    }
+  }
+  .header-title {
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 34vh;
+    margin: 0;
+  }
+  .header-title-des {
+    font-size: 28px;
+  }
+  .header-description {
+    padding-top: 28vh;
+    width: 47%;
+    margin: 0 auto;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    font-weight: 700;
+  }
 }
+
