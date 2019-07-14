@@ -1,20 +1,19 @@
 <template>
     <div id="app">
-        <app-header></app-header>
-        <div id="main">
+        <app-header/>
+        <div class="app-body">
             <nuxt/>
         </div>
-        <app-footer></app-footer>
+        <app-footer/>
     </div>
-
 </template>
 
 <style>
 
 </style>
 <script>
-  import AppHeader from "../components/Header";
-  import AppFooter from "../components/Footer";
+  import AppHeader from "../components/Header/Header";
+  import AppFooter from "../components/Footer/Footer";
 
   export default {
     components: {AppFooter, AppHeader}

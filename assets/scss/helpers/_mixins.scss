@@ -1,0 +1,10 @@
+@mixin animate-common-ty {
+  opacity: 0;
+  position: relative;
+  top: -$height-animate-ty;
+}
+@mixin animate-common-tx {
+  opacity: 0;
+  position: relative;
+  left: -$height-animate-tx;
+}

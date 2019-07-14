@@ -1,41 +1,56 @@
-#app-header {
-  background: #C0E4DA;
-  color: black;
+.app-header_contact {
+  @include animate-common-ty;
+  background: $color-white;
+  height: $height-header_contact;
   text-align: center;
-  .navigation_menu {
-    width: 44%;
-    font-size: 16px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 14px 0 0 0;
-    & li{
-      color: #000;
-      font-size: 10px;
-      list-style: none;
-      a {
-        color: #000;
-        font-weight: 700;
-      }
-    }
-  }
-  .header-title {
-    font-weight: 700;
-    font-size: 38px;
-    padding-top: 34vh;
-    margin: 0;
-  }
-  .header-title-des {
-    font-size: 28px;
-  }
-  .header-description {
-    padding-top: 28vh;
-    width: 47%;
-    margin: 0 auto;
-    letter-spacing: 0.3px;
-    font-size: 12px;
-    font-weight: 700;
+  @include media-breakpoint-down(sm) {
+    height: auto;
+    padding: 10px 0;
   }
 }
 
+.app-header_navigation {
+  @include animate-common-ty;
+  background: $color-app-primary;
+  height: $height-header_navigation;
+  @include media-breakpoint-down(sm) {
+    height: auto;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .nav-item {
+    flex: 1;
+    text-align: center;
+    @include media-breakpoint-down(sm) {
+      background: $color-white;
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+
+    .nav-link {
+      color: $color-light-black;
+      display: inline-block;
+      padding: 0;
+      position: relative;
+      @include media-breakpoint-down(sm) {
+        padding: 0.5em 0;
+      }
+
+      &.active::after {
+        background: $color-light-black;
+        content: " ";
+        display: block;
+        height: 5px;
+        margin-top: 5px;
+        position: absolute;
+        width: 100%;
+        @include media-breakpoint-down(sm) {
+          display: none;
+        }
+      }
+    }
+  }
+}

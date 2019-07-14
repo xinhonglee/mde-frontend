@@ -1,0 +1,29 @@
+/************ Colors *****************/
+
+$color-light-green: #bee4bd;
+$color-light-blue: #cbe9ef;
+$color-light-gray: #f0f0f0;
+$color-light-black: black;
+$color-white: white;
+
+
+$color-app-primary: $color-light-green;
+$color-app-secondary: $color-light-blue;
+$color-app-third: $color-light-gray;
+
+
+/************ Fonts *****************/
+
+$font-size-default: 18px;
+
+
+/************ Height *****************/
+$height-animate-ty: 40px;
+$height-animate-tx: 40px;
+
+$height-header_contact: 50px;
+$height-header_navigation: 60px;
+$height-footer: 100px;
+$height-body: calc(100vh - #{$height-header_contact + $height-header_navigation + $height-footer});
+
+

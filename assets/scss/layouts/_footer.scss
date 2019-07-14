@@ -1,7 +1,5 @@
-#app-footer {
-  background: #DDDDDD;
-  color: black;
-  height: 50px;
-  text-align: center;
-  padding: 20px;
+.app-footer {
+  @include animate-common-ty;
+  height: $height-footer;
+  background-color: $color-app-third;
 }

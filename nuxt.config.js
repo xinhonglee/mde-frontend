@@ -24,10 +24,16 @@ module.exports = {
   css: [
     {src: '~/assets/scss/custom.scss', lang: 'scss'}
   ],
+  /**
+   * Route
+   */
+  route: {},
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [
+    "~plugins/global.js"
+  ],
   /*
   ** Nuxt.js modules
   */

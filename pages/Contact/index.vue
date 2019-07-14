@@ -1,8 +1,8 @@
 <template>
-  <div id="page-home" class="main">
+  <div id="page-contact" class="main">
     <div class="container">
       <div class="headline text-center">
-        <h1>Home</h1>
+        <h1>Contact</h1>
       </div>
     </div>
   </div>
@@ -10,9 +10,8 @@
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
-
   export default {
-    name: "app-page-home",
+    name: "app-page-contact",
     data() {
       return {};
     },
@@ -22,6 +21,6 @@
   }
 </script>
 
-<style>
+<style scoped>
 
 </style>
