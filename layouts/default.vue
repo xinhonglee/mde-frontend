@@ -16,6 +16,6 @@
   import AppFooter from "../components/Footer/Footer";
 
   export default {
-    components: {AppFooter, AppHeader}
+    components: {AppFooter, AppHeader},
   }
 </script>

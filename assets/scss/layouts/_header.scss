@@ -39,16 +39,22 @@
         padding: 0.5em 0;
       }
 
-      &.active::after {
+      &::after {
         background: $color-light-black;
         content: " ";
         display: block;
         height: 5px;
         margin-top: 5px;
         position: absolute;
+        transform: scale(0);
+        transition: transform .1s;
         width: 100%;
+      }
+
+      &.active::after {
+        transform: scale(1);
         @include media-breakpoint-down(sm) {
-          display: none;
+          visibility: hidden;
         }
       }
     }
