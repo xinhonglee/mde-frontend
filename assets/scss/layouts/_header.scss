@@ -32,6 +32,7 @@
 
     .nav-link {
       color: $color-light-black;
+      font-weight: 500;
       display: inline-block;
       padding: 0;
       position: relative;
@@ -50,7 +51,11 @@
         transition: transform .1s;
         width: 100%;
       }
-
+      &:hover,
+      &.active {
+        color: $color-light-black;
+        font-weight: 700;
+      }
       &.active::after {
         transform: scale(1);
         @include media-breakpoint-down(sm) {

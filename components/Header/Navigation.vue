@@ -1,7 +1,7 @@
 <template>
   <div class="app-header_navigation">
     <div class="container v-middle_wrap">
-      <b-navbar toggleable="lg" class="v-middle">
+      <b-navbar toggleable="lg" type="dark" class="v-middle">
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>

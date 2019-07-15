@@ -18,6 +18,17 @@
     mounted() {
       paintCommon();
     },
+    layout: 'default',
+    head: {
+      title: 'MDE Frontend Development',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Your next web design and development team'
+        }
+      ]
+    }
   }
 </script>
 
