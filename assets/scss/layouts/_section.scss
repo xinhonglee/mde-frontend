@@ -1,7 +1,6 @@
 .app-body {
   @include animate-common-ty;
-  background-color: $color-app-secondary;
-  min-height: $height-body;
+  background-color: $color-white;
 
   .main {
     height: 100%;

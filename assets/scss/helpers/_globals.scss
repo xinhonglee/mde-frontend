@@ -1,5 +1,10 @@
 html {
   font-size: $font-size-default;
+  font-family: Inconsolata;
+}
+
+body {
+  background-color: $color-app-primary;
 }
 
 .v-middle_wrap {

@@ -1,8 +1,8 @@
 <template>
-  <div id="page-treatments" class="main">
+  <div id="page_webshop" class="main">
     <div class="container">
       <div class="headline text-center">
-        <h1>Treatments</h1>
+        <h1>Webshop</h1>
       </div>
     </div>
   </div>
@@ -11,7 +11,7 @@
 <script>
   import {paintCommon} from "~/assets/js/animate";
   export default {
-    name: "app-page-treatments",
+    name: "app-page-webshop",
     data() {
       return {};
     },

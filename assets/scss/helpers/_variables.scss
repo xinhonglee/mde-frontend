@@ -1,6 +1,6 @@
 /************ Colors *****************/
 
-$color-light-green: #bee4bd;
+$color-light-green: #c0e4da;
 $color-light-blue: #cbe9ef;
 $color-light-gray: #f0f0f0;
 $color-light-black: black;
@@ -21,8 +21,9 @@ $font-size-default: 18px;
 $height-animate-ty: 40px;
 $height-animate-tx: 40px;
 
-$height-header_contact: 50px;
-$height-header_navigation: 60px;
+$height-header_contact: 63px;
+$height-header_navigation: 117px;
 $height-footer: 100px;
-$height-body: calc(100vh - #{$height-header_contact + $height-header_navigation + $height-footer});
+//$height-body: calc(100vh - #{$height-header_contact + $height-header_navigation + $height-footer});
 
+$height-home-head: calc(100vh - #{$height-header_contact + $height-header_navigation});

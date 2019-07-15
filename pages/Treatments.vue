@@ -1,18 +1,17 @@
 <template>
-  <div id="page_home" class="main">
-    <app-page-home-header/>
+  <div id="page_treatments" class="main">
+    <div class="container">
+      <div class="headline text-center">
+        <h1>Treatments</h1>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
-  import AppPageHomeHeader from "~/components/Pages/Home/SectionHeader";
-
   export default {
-    name: "app-page-home",
-    components: {
-      AppPageHomeHeader
-    },
+    name: "app-page-treatments",
     data() {
       return {};
     },
@@ -33,6 +32,6 @@
   }
 </script>
 
-<style>
+<style scoped>
 
 </style>

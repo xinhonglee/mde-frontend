@@ -1,6 +1,6 @@
 import anime from "animejs";
 
-const duration = 1800;
+const duration = 1000;
 const txDuration = duration;
 const txVaule = 40;
 const tyDuration = duration;
@@ -45,6 +45,17 @@ export const paintCommon = (element) => {
       duration: duration,
       loop: false
     }, '-=1400')
+    .add({
+      targets: 'header .navbar-brand',
+      opacity: 1,
+      easing: 'easeOutElastic',
+      rotateY: -720,
+      translateY: [
+        { value: tyVaule, duration: 1800 }
+      ],
+      duration: 1800,
+      loop: true
+    })
     .add({
       targets: '.app-body',
       opacity: 1,

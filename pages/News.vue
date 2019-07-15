@@ -1,8 +1,8 @@
 <template>
-  <div id="page-about" class="main">
+  <div id="page_news" class="main">
     <div class="container">
       <div class="headline text-center">
-        <h1>About</h1>
+        <h1>News</h1>
       </div>
     </div>
   </div>
@@ -11,7 +11,7 @@
 <script>
   import {paintCommon} from "~/assets/js/animate";
   export default {
-    name: "app-page-about",
+    name: "app-page-news",
     data() {
       return {};
     },
