@@ -12,4 +12,92 @@
       padding-top: 40px;
     }
   }
+
+  #page_home {
+    .tenerife{
+      .tenerifeLeft {
+        img {
+          width: 100%;
+        }
+      }
+      .tenerife-right {
+        display: flex;
+        align-items: center;
+        .tenerife-right-content{
+          padding-left: 128px;
+          .tenerife-right-title {
+            width: 74%;
+          }
+          .tenerife-right-description {
+            width: 54%;
+          }
+          .tenerife-right-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 290px;
+            height: 60px;
+
+            border-radius: 24px;
+            border: solid 1px #383838;
+
+            font-family: Inconsolata;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.05;
+            letter-spacing: normal;
+            text-align: center;
+            color: #000000;
+          }
+        }
+      }
+    }
+    .about {
+      text-align: center;
+
+      background-color: #f0f0f0;
+      .about-content {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0 20% 0 20%;
+        .about-content-item {
+          .item-image {
+            img {
+            }
+          }
+          .item-description {
+            p {
+              padding: 0 10% 0 10%;
+            }
+          }
+        }
+      }
+    }
+    .treatments {
+      text-align: center;
+
+      background-color: #cde8f0;
+      .treatments-content {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0 20% 0 20%;
+        .treatments-content-item {
+          .item-image {
+            img {
+            }
+          }
+          .item-description {
+            p {
+              padding: 0 10% 0 10%;
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,17 +1,34 @@
 <template>
-  <div id="page_home" class="main">
-    <app-page-home-header/>
-  </div>
+    <div id="page_home" class="main">
+        <div>
+            <app-page-home-header/>
+        </div>
+        <div>
+            <app-page-home-tenerife/>
+        </div>
+        <div>
+            <app-page-home-about/>
+        </div>
+        <div>
+            <app-page-home-treatments/>
+        </div>
+    </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
   import AppPageHomeHeader from "~/components/Pages/Home/SectionHeader";
+  import AppPageHomeTenerife from "../components/Pages/Home/SectionBodyTenerife";
+  import AppPageHomeAbout from "../components/Pages/Home/SectionBodyAbout";
+  import AppPageHomeTreatments from "../components/Pages/Home/SectionBodyTreatments";
 
   export default {
     name: "app-page-home",
     components: {
-      AppPageHomeHeader
+      AppPageHomeTenerife,
+      AppPageHomeHeader,
+      AppPageHomeAbout,
+      AppPageHomeTreatments,
     },
     data() {
       return {};
