@@ -1,6 +1,189 @@
 #page_home {
+
   section.header {
     height: $height-home-head;
     background-color: $color-app-primary;
+    text-align: center;
+
+    h1 {
+      margin-top: -200px;
+      font-size: 80px;
+      @include media-breakpoint-down(sm) {
+        font-size: 40px;
+      }
+    }
+    h2 {
+      font-size: 54px;
+      font-weight: normal;
+      @include media-breakpoint-down(sm) {
+        font-size: 30px;
+      }
+    }
+    .header-bottom {
+      bottom: 100px;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      p {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+    }
+    .header-arrow_wrap {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+
+      img.header-arrow {
+        width: 40px;
+        animation: bounce 2s infinite;
+        cursor: pointer;
+      }
+    }
+  }
+
+  section.tenerife {
+    display: flex;
+    flex-direction: row;
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+    }
+
+    .tenerife-left {
+      flex: 1;
+      img {
+        width: 100%;
+      }
+    }
+    .tenerife-right {
+      flex: 1;
+      align-items: center;
+      .tenerife-right-content {
+
+        padding-left: 100px;
+        @include media-breakpoint-down(sm) {
+          padding: 20px;
+        }
+
+        .tenerife-right-title {
+          max-width: 450px;
+        }
+        .tenerife-right-description {
+          max-width: 450px;
+          p {
+            margin-top: 30px;
+          }
+        }
+        .tenerife-right-button {
+          a {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  section.about {
+    @extend .section-base;
+    text-align: center;
+    background: $color-app-third;
+
+    .about-content-item {
+      margin-top: 80px;
+
+      .item-image {
+        img {
+          width: auto;
+          height: 120px;
+        }
+      }
+      .item-description {
+        h5 {
+          margin-top: 50px;
+        }
+        p {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  section.treatments {
+    @extend .section-base;
+    text-align: center;
+    background-color: $color-app-secondary;
+
+    .treatments-title {
+      p {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 50px;
+
+      }
+    }
+
+    .treatments-content-item {
+      margin-top: 80px;
+      padding: 50px 20px;
+
+      background-color: $color-white;
+      .item-image {
+        img {
+          width: auto;
+          height: 120px;
+        }
+      }
+      .item-description {
+        h5 {
+          margin-top: 80px;
+        }
+        p {
+          margin-top: 30px;
+        }
+      }
+      .item-button {
+        margin-top: 50px;
+      }
+    }
+  }
+
+  section.shop {
+    @extend .section-base;
+    text-align: center;
+    background-color: $color-white;
+
+    .shop-content-item {
+      margin-top: 80px;
+
+      .item-image {
+        img {
+          width: auto;
+          height: 235px;
+        }
+      }
+      .item-description {
+        margin-top: 50px;
+        p {
+          max-width: 250px;
+          margin: 0 auto;
+        }
+      }
+      .item-price {
+        p {
+          margin-top: 30px;
+        }
+        span {
+          text-decoration: line-through;
+        }
+      }
+      .item-button {
+        margin-top: 50px;
+      }
+    }
+    .shop-more {
+      margin-top: 80px;
+    }
   }
 }

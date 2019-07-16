@@ -1,26 +1,20 @@
 <template>
-    <div id="page_home" class="main">
-        <div>
-            <app-page-home-header/>
-        </div>
-        <div>
-            <app-page-home-tenerife/>
-        </div>
-        <div>
-            <app-page-home-about/>
-        </div>
-        <div>
-            <app-page-home-treatments/>
-        </div>
-    </div>
+  <div id="page_home" class="main">
+    <app-page-home-header/>
+    <app-page-home-tenerife/>
+    <app-page-home-about/>
+    <app-page-home-treatments/>
+    <app-page-home-shop/>
+  </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
   import AppPageHomeHeader from "~/components/Pages/Home/SectionHeader";
-  import AppPageHomeTenerife from "../components/Pages/Home/SectionBodyTenerife";
-  import AppPageHomeAbout from "../components/Pages/Home/SectionBodyAbout";
-  import AppPageHomeTreatments from "../components/Pages/Home/SectionBodyTreatments";
+  import AppPageHomeTenerife from "../components/Pages/Home/SectionTenerife";
+  import AppPageHomeAbout from "../components/Pages/Home/SectionAbout";
+  import AppPageHomeTreatments from "../components/Pages/Home/SectionTreatments";
+  import AppPageHomeShop from "../components/Pages/Home/SectionShop";
 
   export default {
     name: "app-page-home",
@@ -29,6 +23,7 @@
       AppPageHomeHeader,
       AppPageHomeAbout,
       AppPageHomeTreatments,
+      AppPageHomeShop,
     },
     data() {
       return {};

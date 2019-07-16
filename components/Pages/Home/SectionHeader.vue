@@ -1,16 +1,23 @@
 <template>
-    <section class="header">
-        <div class="container">
-            <div class="headline text-center">
-                <h1>Maritima</h1>
-                <h2>Dental & Esthetics</h2>
-                <div class="headline-text text-center">
-                    <p>Specialistas En Implantología Y Estética Dental, Estética Facial Y Corporal, Medicina
-                        Estética. En Candelaria, Tenerife.</p>
-                </div>
-            </div>
+  <section class="header">
+    <div class="container h-100">
+      <div class="v-middle_wrap">
+        <div class="headline v-middle">
+          <h1>Maritima</h1>
+          <h2>Dental & Esthetics</h2>
         </div>
-    </section>
+      </div>
+      <div class="inner-container position-relative">
+        <div class="header-bottom">
+          <p>Specialistas En Implantología Y Estética Dental, Estética Facial Y Corporal, Medicina
+            Estética. En Candelaria, Tenerife.</p>
+        </div>
+        <div class="header-arrow_wrap">
+          <img class="header-arrow" src="~/assets/images/icons/down-arrow.png"/>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>

@@ -14,7 +14,7 @@
             <li class="nav-item"><nuxt-link active-class="active" to="/contact" class="nav-link" exact>Contact</nuxt-link></li>
           </b-navbar-nav>
           <b-navbar-nav class="appointment ml-auto">
-            <li class="nav-item v-middle_wrap"><a href="#" class="nav-link v-middle">Book an appointment</a></li>
+            <a href="#" class="button-small-round">Book an appointment</a>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>

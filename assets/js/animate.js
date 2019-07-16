@@ -66,16 +66,16 @@ export const paintCommon = (element) => {
       duration: duration,
       loop: false
     }, '-=1700')
-    .add({
-      targets: '.headline h1',
-      opacity: 1,
-      easing: 'easeOutElastic',
-      translateX: [
-        { value: txVaule, duration: txDuration }
-      ],
-      duration: duration,
-      loop: false
-    }, '-=1500')
+    // .add({
+    //   targets: '.headline h1',
+    //   opacity: 1,
+    //   easing: 'easeOutElastic',
+    //   translateX: [
+    //     { value: txVaule, duration: txDuration }
+    //   ],
+    //   duration: duration,
+    //   loop: false
+    // }, '-=1500')
     .add({
       targets: 'footer .app-footer',
       opacity: 1,

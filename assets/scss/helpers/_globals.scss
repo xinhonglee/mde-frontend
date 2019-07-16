@@ -10,8 +10,18 @@ body {
 .v-middle_wrap {
   display: table !important;
   height: 100% !important;
+  width: 100% !important;
 }
 .v-middle {
   display: table-cell !important;
   vertical-align: middle !important
+}
+
+.inner-container {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
 }
