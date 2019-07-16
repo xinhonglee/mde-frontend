@@ -5,6 +5,8 @@
     <app-page-home-about/>
     <app-page-home-treatments/>
     <app-page-home-shop/>
+    <app-page-home-news/>
+    <app-page-home-appointment/>
   </div>
 </template>
 
@@ -15,6 +17,8 @@
   import AppPageHomeAbout from "../components/Pages/Home/SectionAbout";
   import AppPageHomeTreatments from "../components/Pages/Home/SectionTreatments";
   import AppPageHomeShop from "../components/Pages/Home/SectionShop";
+  import AppPageHomeNews from "../components/Pages/Home/SectionNews";
+  import AppPageHomeAppointment from "../components/Pages/Home/SectionAppointment";
 
   export default {
     name: "app-page-home",
@@ -24,6 +28,8 @@
       AppPageHomeAbout,
       AppPageHomeTreatments,
       AppPageHomeShop,
+      AppPageHomeNews,
+      AppPageHomeAppointment
     },
     data() {
       return {};
