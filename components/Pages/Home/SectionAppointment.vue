@@ -1,7 +1,23 @@
 <template>
   <section class="appointment">
     <div class="appointment-left">
-      <div id="map"></div>
+      <div id="map">
+        <!--<GmapMap-->
+        <!--:center="{lat:10, lng:10}"-->
+        <!--:zoom="7"-->
+        <!--map-type-id="terrain"-->
+        <!--style="width: 500px; height: 300px"-->
+        <!--&gt;-->
+        <!--<GmapMarker-->
+        <!--:key="index"-->
+        <!--v-for="(m, index) in markers"-->
+        <!--:position="m.position"-->
+        <!--:clickable="true"-->
+        <!--:draggable="true"-->
+        <!--@click="center=m.position"-->
+        <!--/>-->
+        <!--</GmapMap>-->
+      </div>
     </div>
     <div class="appointment-right">
       <div class="appointment-right-content v-middle_wrap">
@@ -13,7 +29,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua.</p>
             <p>Lunes a Viernes de 9:00 a 20:00<br>
-            Sábados Emergencias Domingos cerrado</p>
+              Sábados Emergencias Domingos cerrado</p>
           </div>
           <div class="appointment-right-button">
             <a href="#" class="button-normal-round">Reach out</a>
@@ -26,7 +42,7 @@
 
 <script>
   export default {
-    name: "app-page-home-appointment"
+    name: "app-page-home-appointment",
   }
 </script>
 
