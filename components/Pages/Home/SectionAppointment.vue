@@ -1,23 +1,7 @@
 <template>
   <section class="appointment">
     <div class="appointment-left">
-      <div id="map">
-        <!--<GmapMap-->
-        <!--:center="{lat:10, lng:10}"-->
-        <!--:zoom="7"-->
-        <!--map-type-id="terrain"-->
-        <!--style="width: 500px; height: 300px"-->
-        <!--&gt;-->
-        <!--<GmapMarker-->
-        <!--:key="index"-->
-        <!--v-for="(m, index) in markers"-->
-        <!--:position="m.position"-->
-        <!--:clickable="true"-->
-        <!--:draggable="true"-->
-        <!--@click="center=m.position"-->
-        <!--/>-->
-        <!--</GmapMap>-->
-      </div>
+      <app-google-map></app-google-map>
     </div>
     <div class="appointment-right">
       <div class="appointment-right-content v-middle_wrap">
@@ -41,8 +25,10 @@
 </template>
 
 <script>
+  import AppGoogleMap from "~/components/Map";
   export default {
     name: "app-page-home-appointment",
+    components: {AppGoogleMap},
   }
 </script>
 

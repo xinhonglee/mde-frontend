@@ -24,6 +24,8 @@
       position: absolute;
       text-align: center;
       width: 100%;
+      z-index: 1;
+
       p {
         font-size: 20px;
         font-weight: 600;
@@ -35,12 +37,24 @@
       position: absolute;
       bottom: 30px;
       width: 100%;
+      z-index: 1;
 
       img.header-arrow {
         width: 40px;
         animation: bounce 2s infinite;
         cursor: pointer;
       }
+    }
+    .header-bottom_back {
+      position: absolute;
+      bottom: 0;
+      height: 30vh;
+      width: 100%;
+      z-index: 0;
+
+      background: url(~assets/images/logo.svg) no-repeat;
+      background-size: cover;
+      background-position: top;
     }
   }
 

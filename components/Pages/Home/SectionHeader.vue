@@ -15,6 +15,7 @@
         <div class="header-arrow_wrap">
           <img class="header-arrow" src="~/assets/images/icons/down-arrow.png"/>
         </div>
+        <div class="header-bottom_back"></div>
       </div>
     </div>
   </section>
