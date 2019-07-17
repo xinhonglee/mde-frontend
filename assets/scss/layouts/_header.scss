@@ -1,7 +1,105 @@
-#app-header {
-  background: green;
-  color: white;
-  height: 50px;
+.app-header_contact {
+  @include animate-common-ty;
+  background: $color-white;
+  font-size: $font-size-default;
+  height: $height-header_contact;
   text-align: center;
-  padding: 20px;
+  font-family: Inconsolata;
+  letter-spacing: normal;
+  @include media-breakpoint-down(sm) {
+    //height: auto;
+    //padding: 10px 0;
+    display: none;
+  }
+}
+
+.app-header_navigation {
+  @include animate-common-ty;
+  background: $color-app-primary;
+  height: $height-header_navigation;
+  position: relative;
+  z-index: 1;
+
+  .navbar {
+    padding:0;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+    padding-top:18px;
+    @include animate-common-ty;
+    img {
+      height: 83px;
+      width: auto;
+      @include media-breakpoint-down(sm) {
+        height: 45px;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    @include media-breakpoint-down(md) {
+      padding: 20px 10px;
+      background: $color-app-primary;
+      border: 1px solid $color-white;
+    }
+  }
+
+  .navbar-nav {
+
+    &.appointment {
+      @include media-breakpoint-down(md) {
+        margin-top: 20px;
+        a {
+          background-color: $color-white;
+        }
+      }
+    }
+
+    .nav-item {
+      margin-left: 100px;
+      text-align: left;
+      @include media-breakpoint-down(lg) {
+        margin-left: 20px;
+      }
+      @include media-breakpoint-down(md) {
+        background: $color-white;
+        border-radius: 5px;
+        margin: 5px 0;
+      }
+
+      .nav-link {
+        color: $color-light-black;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0;
+        position: relative;
+        width: 100%;
+
+        @include media-breakpoint-down(md) {
+          padding: 0.5em 1em;
+        }
+
+        &::after {
+          background: $color-light-black;
+          content: " ";
+          display: block;
+          height: 5px;
+          margin-top: 5px;
+          position: absolute;
+          transform: scale(0);
+          transition: transform .1s;
+          width: 100%;
+        }
+        &.active::after {
+          transform: scale(1);
+          @include media-breakpoint-down(sm) {
+            visibility: hidden;
+          }
+        }
+      }
+    }
+  }
+
 }

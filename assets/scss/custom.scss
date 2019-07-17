@@ -1,4 +1,6 @@
-@import "helpers/all";
-@import "components/all";
-@import "layouts/all";
-@import "pages/all";
+@import "bootstrap_variables";
+@import "~bootstrap/scss/bootstrap";
+@import "helpers/index";
+@import "components/index";
+@import "layouts/index";
+@import "pages/index";
