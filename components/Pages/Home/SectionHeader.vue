@@ -13,7 +13,7 @@
             Estética. En Candelaria, Tenerife.</p>
         </div>
         <div class="header-arrow_wrap">
-          <img class="header-arrow" src="~/assets/images/icons/down-arrow.png"/>
+          <img class="header-arrow" src="~/assets/images/icons/down-arrow.svg"/>
         </div>
         <div class="header-bottom_back"></div>
       </div>
