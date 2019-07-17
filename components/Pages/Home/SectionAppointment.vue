@@ -16,7 +16,7 @@
               Sábados Emergencias Domingos cerrado</p>
           </div>
           <div class="appointment-right-button">
-            <a href="#" class="button-normal-round">Reach out</a>
+            <a href="#" class="button-extend-normal-round">Reach out</a>
           </div>
         </div>
       </div>
