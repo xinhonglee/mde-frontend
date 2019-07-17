@@ -4,7 +4,7 @@
         <div class="app-body">
             <nuxt/>
         </div>
-        <!--<app-footer/>-->
+        <app-footer/>
     </div>
 </template>
 

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  border: solid 2px $color-light-black;
+  border: solid 2px $color-black;
   font-size: $font-size-default;
   font-family: Inconsolata;
   font-weight: normal;
@@ -12,7 +12,7 @@
   line-height: 1.05;
   letter-spacing: normal;
   text-align: center;
-  color: $color-light-black;
+  color: $color-black;
   padding: 20px 20px;
   text-decoration: none !important;
 }
@@ -20,6 +20,9 @@
   @extend .button-round;
   font-size: 20px;
   padding: 20px 40px;
+  @include media-breakpoint-down(sm) {
+    padding: 20px 20px;
+  }
 }
 .button-small-round {
   @extend .button-round;
@@ -37,4 +40,7 @@
   @extend .button-round;
   font-size: 20px;
   padding: 20px 100px;
+  @include media-breakpoint-down(sm) {
+    padding: 20px 40px;
+  }
 }
