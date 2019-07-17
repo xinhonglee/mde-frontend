@@ -18,15 +18,21 @@
 
   .footer-logo {
     display: flex;
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+    }
     img {
       width: 43px;
       height: 57px;
+      @include media-breakpoint-down(sm) {
+        margin: 0 auto;
+      }
     }
     h5 {
       padding-bottom: 0;
     }
     .footer-title {
-      margin-left: 20px;
+      padding: 0 20px;
       color: $color-light-black;
     }
   }
