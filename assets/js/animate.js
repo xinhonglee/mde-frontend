@@ -53,7 +53,7 @@ export const paintCommon = (element) => {
       translateY: [
         { value: tyVaule, duration: 1800 }
       ],
-      duration: 1800,
+      duration: 2600,
       loop: true
     })
     .add({
