@@ -5,7 +5,7 @@
         <h2>Shop our products</h2>
       </div>
       <b-row>
-        <b-col md="3">
+        <b-col lg="3" md="6">
           <div class="shop-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/shop/product-piel.png"/>
@@ -21,7 +21,7 @@
             </div>
           </div>
         </b-col>
-        <b-col md="3">
+        <b-col lg="3" md="6">
           <div class="shop-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/shop/product-cream.png"/>
@@ -37,7 +37,7 @@
             </div>
           </div>
         </b-col>
-        <b-col md="3">
+        <b-col lg="3" md="6">
           <div class="shop-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/shop/product-silky.png"/>
@@ -53,7 +53,7 @@
             </div>
           </div>
         </b-col>
-        <b-col md="3">
+        <b-col lg="3" md="6">
           <div class="shop-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/shop/product-cream.png"/>

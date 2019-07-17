@@ -7,8 +7,9 @@
   font-family: Inconsolata;
   letter-spacing: normal;
   @include media-breakpoint-down(sm) {
-    height: auto;
-    padding: 10px 0;
+    //height: auto;
+    //padding: 10px 0;
+    display: none;
   }
 }
 
@@ -16,9 +17,8 @@
   @include animate-common-ty;
   background: $color-app-primary;
   height: $height-header_navigation;
-  @include media-breakpoint-down(sm) {
-    height: auto;
-  }
+  position: relative;
+  z-index: 1;
 
   .navbar {
     padding:0;
@@ -37,9 +37,18 @@
     }
   }
 
+  .navbar-collapse {
+    @include media-breakpoint-down(md) {
+      padding: 20px 10px;
+      background: $color-app-primary;
+      border: 1px solid $color-white;
+    }
+  }
+
   .navbar-nav {
+
     &.appointment {
-      @include media-breakpoint-down(sm) {
+      @include media-breakpoint-down(md) {
         margin-top: 20px;
         a {
           background-color: $color-white;
@@ -50,10 +59,10 @@
     .nav-item {
       margin-left: 100px;
       text-align: left;
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(lg) {
         margin-left: 20px;
       }
-      @include media-breakpoint-down(sm) {
+      @include media-breakpoint-down(md) {
         background: $color-white;
         border-radius: 5px;
         margin: 5px 0;
@@ -68,7 +77,7 @@
         position: relative;
         width: 100%;
 
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(md) {
           padding: 0.5em 1em;
         }
 
