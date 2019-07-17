@@ -4,6 +4,8 @@
   font-size: $font-size-default;
   height: $height-header_contact;
   text-align: center;
+  font-family: Inconsolata;
+  letter-spacing: normal;
   @include media-breakpoint-down(sm) {
     height: auto;
     padding: 10px 0;
@@ -19,11 +21,12 @@
   }
 
   .navbar {
-    padding: 1.2rem 0;
+    padding:0;
   }
 
   .navbar-brand {
     margin-right: 0;
+    padding-top:18px;
     @include animate-common-ty;
     img {
       height: 83px;

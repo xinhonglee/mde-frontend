@@ -1,7 +1,7 @@
 <template>
   <section class="tenerife">
     <div class="tenerife-left">
-      <img src="~/assets/images/home/michael-browning-40733-unsplash.png"/>
+      <img src="~/assets/images/home/tenerife/michael-browning-40733-unsplash.png"/>
     </div>
     <div class="tenerife-right">
       <div class="tenerife-right-content v-middle_wrap">

@@ -1,5 +1,58 @@
 .app-footer {
   @include animate-common-ty;
-  height: $height-footer;
-  background-color: $color-gray;
+  background-color: $color-dark-gray;
+  font-size: $font-size-default;
+  h5 {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  p {
+    text-align: left;
+  }
+  .footer-logo {
+    padding-top: 50px;
+    img {
+      width: 75px;
+      height: 90px;
+      margin-right: 20px;
+      padding: 9px;
+    }
+    h5 {
+      padding-bottom: 0px;
+    }
+    .footer-title {
+      margin-top: 16px;
+    }
+  }
+  .footer-content{
+    padding-bottom:50px;
+    .footer-left {
+      padding-top: 20px;
+      @include media-breakpoint-down(sm) {
+        flex-direction: column;
+      }
+    }
+    .footer-right-content{
+      margin-top:10px;
+      margin-left:412px;
+      img{
+        width:30px;
+        height:30px;
+        opacity:0.7;
+        margin-right:10px;
+      }
+    }
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+      .footer-left-content{
+        padding-bottom:30px;
+      }
+      .footer-right-content{
+        padding-left:15px;
+        margin-left:0px;
+      }
+    }
+  }
+
+
 }

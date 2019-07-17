@@ -15,7 +15,7 @@
         <b-col md="4">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/home/Group 267@2x.png"/>
+              <img src="~/assets/images/home/treatments/dental.png"/>
             </div>
             <div class="item-description">
               <h5>Dental</h5>
@@ -30,7 +30,7 @@
         <b-col md="4">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/home/Group 262@2x.png"/>
+              <img src="~/assets/images/home/treatments/esthetics.png"/>
             </div>
             <div class="item-description">
               <h5>Esthetics</h5>
@@ -45,7 +45,7 @@
         <b-col md="4">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/home/Group 268@2x.png"/>
+              <img src="~/assets/images/home/treatments/natural-medicine.png"/>
             </div>
             <div class="item-description">
               <h5>Natural Medicine</h5>

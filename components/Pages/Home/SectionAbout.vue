@@ -13,7 +13,7 @@
             <b-col md="4">
               <div class="about-content-item">
                 <div class="item-image">
-                  <img src="~/assets/images/home/Group-290@2x.png"/>
+                  <img src="~/assets/images/home/about/personal-approach.png"/>
                 </div>
                 <div class="item-description">
                   <h5>Personal Approach</h5>
@@ -24,7 +24,7 @@
             <b-col md="4">
               <div class="about-content-item">
                 <div class="item-image">
-                  <img src="~/assets/images/home/Group-281@2x.png"/>
+                  <img src="~/assets/images/home/about/broad-range.png"/>
                 </div>
                 <div class="item-description">
                   <h5>Broad range of treatments</h5>
@@ -35,7 +35,7 @@
             <b-col md="4">
               <div class="about-content-item">
                 <div class="item-image">
-                  <img src="~/assets/images/home/Group-291@2x.png"/>
+                  <img src="~/assets/images/home/about/first-certificate.png"/>
                 </div>
                 <div class="item-description">
                   <h5>First certificate</h5>
