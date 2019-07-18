@@ -1,7 +1,7 @@
 <template>
     <section class="about">
       <div class="container">
-        <div class="inner-container">
+        <div class="small-container">
           <b-row>
             <b-col md="12">
               <div class="about-title">
