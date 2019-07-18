@@ -1,0 +1,146 @@
+#page_treatments {
+
+  section.header {
+    height: $height-treatments-head;
+    background-color: $color-app-primary;
+    text-align: center;
+
+    .headline {
+      position: relative;
+      z-index: 1;
+
+      h1 {
+        margin-top: -110px;
+        font-size: 54px;
+        color: $color-light-black;
+        @include media-breakpoint-down(sm) {
+          margin-top: -80px;
+          font-size: 40px;
+        }
+      }
+    }
+
+    .header-bottom_back {
+      position: absolute;
+      bottom: -10px;
+      height: 20vh;
+      width: 100%;
+      z-index: 0;
+
+      background: url(~assets/images/logo.svg) no-repeat;
+      background-size: cover;
+      background-position: top;
+    }
+  }
+
+  section.menu {
+    display: flex;
+    flex-direction: row;
+    @include media-breakpoint-down(sm) {
+      flex-direction: row;
+    }
+    .menu-description {
+      text-align: center;
+      max-width: 100%;
+      margin-top: -35px;
+      p {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 auto;
+        max-width: 720px;
+      }
+    }
+    .menu-bar {
+      margin-top: 38px;
+      padding-bottom: 12px;
+
+      .menubar-content {
+        font-size: 26px;
+        list-style: none;
+        display: flex;
+        padding: 0;
+        text-align: center;
+        max-width: 896px;
+        margin: 0 auto;
+
+        @include media-breakpoint-down(md) {
+          flex-direction: column;
+        }
+
+        .menubar-item {
+          &.dental {
+            flex: 1;
+          }
+          &.esthetics {
+            flex: 1;
+          }
+          &.dental-esthetics {
+            flex: 1.5;
+          }
+          &.natural-medicine {
+            flex: 1.5;
+          }
+
+          .menu-link {
+            color: $color-light-black;
+            display: inline-block;
+            font-size: 30px;
+            padding: 0;
+            position: relative;
+            text-decoration: none;
+
+            @include media-breakpoint-down(md) {
+              margin-top: 20px;
+            }
+
+            &::after {
+              background: $color-light-black;
+              content: " ";
+              display: block;
+              height: 5px;
+              margin-top: 5px;
+              position: absolute;
+              transform: scale(0);
+              transition: transform .1s;
+              width: 100%;
+            }
+            &.active::after {
+              transform: scale(1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section.treatments-content {
+    text-align: center;
+    .treatments-content-item {
+      margin-top: 80px;
+      padding: 50px 20px 10px 20px;
+      background-color: $color-white;
+      .item-image {
+        img {
+          width: 70px;
+          height: 80px;
+        }
+      }
+      .item-description {
+        h5 {
+          margin-top: 18px;
+
+        }
+        p {
+          margin-top: 37px;
+          font-size: 16px;
+        }
+      }
+      .item-button {
+        margin-top: 26px;
+      }
+    }
+    .body-content-group {
+      margin-bottom: 142px;
+    }
+  }
+}
