@@ -5,8 +5,7 @@
         <b-navbar-brand href="/"><img src="~/assets/images/logo.svg"></b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav></b-navbar-nav>
-          <b-navbar-nav class="ml-auto">
+          <b-navbar-nav class="ml-auto navbar-content">
             <li class="nav-item"><nuxt-link active-class="active" to="/about" class="nav-link" exact>About</nuxt-link></li>
             <li class="nav-item"><nuxt-link active-class="active" to="/treatments" class="nav-link" exact>Treatments</nuxt-link></li>
             <li class="nav-item"><nuxt-link active-class="active" to="/news" class="nav-link" exact>News</nuxt-link></li>

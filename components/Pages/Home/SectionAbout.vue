@@ -12,8 +12,8 @@
           <b-row>
             <b-col md="4">
               <div class="about-content-item">
-                <div class="item-image">
-                  <img src="~/assets/images/home/about/personal-approach.png"/>
+                <div class="item-image ">
+                  <img class="image-first" src="~/assets/images/home/about/personal-approach.png"/>
                 </div>
                 <div class="item-description">
                   <h5>Personal Approach</h5>
@@ -23,8 +23,8 @@
             </b-col>
             <b-col md="4">
               <div class="about-content-item">
-                <div class="item-image">
-                  <img src="~/assets/images/home/about/broad-range.png"/>
+                <div class="item-image ">
+                  <img class="image-second" src="~/assets/images/home/about/broad-range.png"/>
                 </div>
                 <div class="item-description">
                   <h5>Broad range of treatments</h5>
@@ -35,7 +35,7 @@
             <b-col md="4">
               <div class="about-content-item">
                 <div class="item-image">
-                  <img src="~/assets/images/home/about/first-certificate.png"/>
+                  <img class="image-third" src="~/assets/images/home/about/first-certificate.png"/>
                 </div>
                 <div class="item-description">
                   <h5>First certificate</h5>

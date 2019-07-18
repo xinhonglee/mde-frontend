@@ -45,7 +45,7 @@
         <b-col md="4">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/home/treatments/natural-medicine.png"/>
+              <img class="item-image-third" src="~/assets/images/home/treatments/natural-medicine.png"/>
             </div>
             <div class="item-description">
               <h5>Natural Medicine</h5>

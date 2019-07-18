@@ -2,7 +2,7 @@
   <section class="news">
     <div class="container">
       <div class="news-title">
-        <h2>Our News</h2>
+        <h2>Our news</h2>
       </div>
       <b-row>
         <b-col md="4">
@@ -14,7 +14,7 @@
               <h5>Dental</h5>
               <p>In our clinic we offer two kind of treatments. Onee focussing on Dental and one on esthetica. Read more
                 about all our treatments below. </p>
-              <small>07/16/2019 - John Smith</small>
+              <small>Date and time - Written by</small>
             </div>
           </div>
         </b-col>
@@ -27,7 +27,7 @@
               <h5>Dental</h5>
               <p>In our clinic we offer two kind of treatments. Onee focussing on Dental and one on esthetica. Read more
                 about all our treatments below. </p>
-              <small>07/16/2019 - John Smith</small>
+              <small>Date and time - Written by</small>
             </div>
           </div>
         </b-col>
@@ -40,7 +40,7 @@
               <h5>Dental</h5>
               <p>In our clinic we offer two kind of treatments. Onee focussing on Dental and one on esthetica. Read more
                 about all our treatments below. </p>
-              <small>07/16/2019 - John Smith</small>
+              <small>Date and time - Written by</small>
             </div>
           </div>
         </b-col>
