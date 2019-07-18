@@ -5,22 +5,18 @@
     background-color: $color-app-primary;
     text-align: center;
 
-    h1 {
-      margin-top: -70px;
-      font-size: 80px;
-      @include media-breakpoint-down(sm) {
-        margin-top: -150px;
-        font-size: 40px;
-      }
-    }
-    h2 {
-      font-size: 54px;
-      font-weight: bolder;
-      line-height: 3;
-      text-align: center;
-      color: #383838;
-      @include media-breakpoint-down(sm) {
-        font-size: 30px;
+    .headline {
+      position: relative;
+      z-index: 1;
+
+      h1 {
+        margin-top: -110px;
+        font-size: 54px;
+        color: $color-light-black;
+        @include media-breakpoint-down(sm) {
+          margin-top: -80px;
+          font-size: 40px;
+        }
       }
     }
 
@@ -57,48 +53,44 @@
     .menu-bar {
       margin-top: 38px;
       padding-bottom: 12px;
-      @include media-breakpoint-down(sm) {
-        flex-direction: column;
-      }
+
       .menubar-content {
         font-size: 26px;
         list-style: none;
         display: flex;
-        justify-content: center;
+        padding: 0;
+        text-align: center;
+        max-width: 896px;
+        margin: 0 auto;
 
-        &.appointment {
-          @include media-breakpoint-down(sm) {
-            margin-top: 20px;
-            a {
-              background-color: $color-white;
-            }
-          }
+        @include media-breakpoint-down(md) {
+          flex-direction: column;
         }
 
         .menubar-item {
-          margin-left:50px;
-          text-align: left;
-          justify-content: center;
-          @include media-breakpoint-down(md) {
-            margin-left: 20px;
+          &.dental {
+            flex: 1;
           }
-          @include media-breakpoint-down(sm) {
-            background: $color-white;
-            border-radius: 5px;
-            margin: 5px 0;
+          &.esthetics {
+            flex: 1;
           }
+          &.dental-esthetics {
+            flex: 1.5;
+          }
+          &.natural-medicine {
+            flex: 1.5;
+          }
+
           .menu-link {
             color: $color-light-black;
             display: inline-block;
             font-size: 30px;
-            //font-weight: bold;
             padding: 0;
             position: relative;
-            width: 100%;
             text-decoration: none;
 
-            @include media-breakpoint-down(sm) {
-              padding: 0.5em 1em;
+            @include media-breakpoint-down(md) {
+              margin-top: 20px;
             }
 
             &::after {
@@ -114,19 +106,14 @@
             }
             &.active::after {
               transform: scale(1);
-              @include media-breakpoint-down(sm) {
-                visibility: hidden;
-              }
             }
           }
         }
       }
-
     }
-
   }
 
-  section.treatments-body {
+  section.treatments-content {
     text-align: center;
     .treatments-content-item {
       margin-top: 80px;
@@ -152,9 +139,8 @@
         margin-top: 26px;
       }
     }
-    .body-content-group{
-      margin-bottom:142px;
+    .body-content-group {
+      margin-bottom: 142px;
     }
   }
-
 }

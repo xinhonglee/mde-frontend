@@ -10,25 +10,23 @@
                     </p>
                 </div>
                 <div class="menu-bar">
-                    <b-menubar-nav class="menubar-content">
-                        <li class="menubar-item">
-                            <nuxt-link active-class="active" to="#" class="menu-link" exact>Dental</nuxt-link>
+                    <ul class="menubar-content">
+                        <li class="menubar-item dental">
+                            <nuxt-link active-class="active" to="/treatments/dental" class="menu-link" exact>Dental</nuxt-link>
                         </li>
-                        <li class="menubar-item">
-                            <nuxt-link active-class="active" to="#" class="menu-link" exact>Esthetics</nuxt-link>
+                        <li class="menubar-item esthetics">
+                            <nuxt-link active-class="active" to="/treatments/esthetics" class="menu-link" exact>Esthetics</nuxt-link>
                         </li>
-                        <li class="menubar-item">
-                            <nuxt-link active-class="active" to="#" class="menu-link" exact>Dental@Esthetics
+                        <li class="menubar-item dental-esthetics">
+                            <nuxt-link active-class="active" to="/treatments/dental-esthetics" class="menu-link" exact>Dental@Esthetics
                             </nuxt-link>
                         </li>
-                        <li class="menubar-item">
-                            <nuxt-link active-class="active" to="#" class="menu-link" exact>Natural@Medicine
+                        <li class="menubar-item natural-medicine">
+                            <nuxt-link active-class="active" to="/treatments/natural-medicine" class="menu-link" exact>Natural@Medicine
                             </nuxt-link>
                         </li>
-                    </b-menubar-nav>
-
+                    </ul>
                 </div>
-
             </div>
         </div>
     </section>

@@ -2,8 +2,8 @@
     <section class="header">
         <div class="container h-100">
             <div class="v-middle_wrap">
-                <div class="headline">
-                    <h2>All treatments</h2>
+                <div class="headline v-middle">
+                    <h1>All treatments</h1>
                 </div>
             </div>
             <div class="inner-container position-relative">

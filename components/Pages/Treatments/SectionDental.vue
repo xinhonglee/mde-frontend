@@ -1,8 +1,8 @@
 <template>
-    <section class="treatments-body">
+    <section class="treatments-content">
         <div class="container">
             <b-row>
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -68,7 +68,7 @@
                 </b-col>
             </b-row>
             <b-row>
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -134,7 +134,7 @@
                 </b-col>
             </b-row>
             <b-row class="body-content-group">
-                <b-col md="3">
+                <b-col xl="3" lg="4" sm="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -150,16 +150,14 @@
                         </div>
                     </div>
                 </b-col>
-
             </b-row>
-
         </div>
     </section>
 </template>
 
 <script>
   export default {
-    name: "app-page-treatments-body"
+    name: "app-page-treatments-dental-content"
   }
 </script>
 

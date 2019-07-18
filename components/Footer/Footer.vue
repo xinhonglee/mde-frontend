@@ -30,7 +30,7 @@
                             38530</p>
                         </div>
                     </b-col>
-                    <b-col offset-md="3" md="3" class="footer-right">
+                    <b-col offset-md="4" md="2" class="footer-right">
                         <div class="footer-right-content">
                             <h5>Social Media</h5>
                             <div class="footer-facebook-content">

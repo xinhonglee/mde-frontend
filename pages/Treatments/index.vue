@@ -2,21 +2,21 @@
   <div id="page_treatments" class="main">
     <app-page-treatments-header/>
     <app-page-treatments-menu/>
-    <app-page-treatments-body/>
+    <app-page-treatments-dental-content/>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
-  import AppPageTreatmentsHeader from "../components/Pages/Treatments/SectionHeader";
-  import AppPageTreatmentsMenu from "../components/Pages/Treatments/SectionMenuBar";
-  import AppPageTreatmentsBody from "../components/Pages/Treatments/SectionBody";
+  import AppPageTreatmentsHeader from "~/components/Pages/Treatments/SectionHeader";
+  import AppPageTreatmentsMenu from "~/components/Pages/Treatments/SectionMenuBar";
+  import AppPageTreatmentsDentalContent from "~/components/Pages/Treatments/SectionDental";
   export default {
     name: "app-page-treatments",
     components: {
       AppPageTreatmentsHeader,
       AppPageTreatmentsMenu,
-      AppPageTreatmentsBody,
+      AppPageTreatmentsDentalContent,
     },
     data() {
       return {};
