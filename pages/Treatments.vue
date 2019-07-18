@@ -1,17 +1,23 @@
 <template>
   <div id="page_treatments" class="main">
-    <div class="container">
-      <div class="headline text-center">
-        <h1>Treatments</h1>
-      </div>
-    </div>
+    <app-page-treatments-header/>
+    <app-page-treatments-menu/>
+    <app-page-treatments-body/>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
+  import AppPageTreatmentsHeader from "../components/Pages/Treatments/SectionHeader";
+  import AppPageTreatmentsMenu from "../components/Pages/Treatments/SectionMenuBar";
+  import AppPageTreatmentsBody from "../components/Pages/Treatments/SectionBody";
   export default {
     name: "app-page-treatments",
+    components: {
+      AppPageTreatmentsHeader,
+      AppPageTreatmentsMenu,
+      AppPageTreatmentsBody,
+    },
     data() {
       return {};
     },
@@ -32,6 +38,6 @@
   }
 </script>
 
-<style scoped>
+<style >
 
 </style>

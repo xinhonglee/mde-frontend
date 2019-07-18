@@ -30,4 +30,7 @@ $height-footer: 100px;
 //$height-body: calc(100vh - #{$height-header_contact + $height-header_navigation + $height-footer});
 
 $height-home-head: calc(100vh - #{$height-header_contact + $height-header_navigation});
+
 $height-home-head-mobile: calc(100vh - #{$height-header_navigation});
+$height-treatments-head: calc(52vh - #{$height-header_contact + $height-header_navigation});
+
