@@ -2,7 +2,7 @@
     <section class="treatments-content">
         <div class="container">
             <b-row>
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -68,7 +68,7 @@
                 </b-col>
             </b-row>
             <b-row>
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </b-col>
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
@@ -134,7 +134,7 @@
                 </b-col>
             </b-row>
             <b-row class="body-content-group">
-                <b-col xl="3" lg="4" sm="6">
+                <b-col xl="3" lg="6">
                     <div class="treatments-content-item">
                         <div class="item-image">
                             <img src="~/assets/images/treatments/dental-tooth.png"/>
