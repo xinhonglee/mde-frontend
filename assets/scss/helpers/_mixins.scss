@@ -11,4 +11,7 @@
 @mixin home-subTitle {
   font-size: 43px;
   font-weight: bold;
+  @include media-breakpoint-down(sm) {
+    font-size: 30px;
+  }
 }

@@ -5,7 +5,7 @@
         <h2>Our news</h2>
       </div>
       <b-row>
-        <b-col md="4">
+        <b-col lg="4">
           <div class="news-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/news/news-1.png"/>
@@ -18,7 +18,7 @@
             </div>
           </div>
         </b-col>
-        <b-col md="4">
+        <b-col lg="4">
           <div class="news-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/news/news-1.png"/>
@@ -31,7 +31,7 @@
             </div>
           </div>
         </b-col>
-        <b-col md="4">
+        <b-col lg="4">
           <div class="news-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/news/news-1.png"/>
