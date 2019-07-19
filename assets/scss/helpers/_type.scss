@@ -1,2 +1,10 @@
-@font-face {font-family: 'Inconsolata';src: url('~assets/fonts/inconsolata/inconsolata-Regular.ttf') format('truetype');}
-@font-face {font-family: 'Yantramanav';src: url('~assets/fonts/yantramanav/yantramanav-Regular.ttf') format('truetype');}
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('~assets/fonts/inconsolata/inconsolata-regular.ttf') format('truetype');
+  src: url('~assets/fonts/inconsolata/inconsolata-regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Yantramanav';
+  src: url('~assets/fonts/yantramanav/yantramanav-regular.ttf') format('truetype');
+  src: url('~assets/fonts/yantramanav/yantramanav-regular.otf') format('opentype');
+}
