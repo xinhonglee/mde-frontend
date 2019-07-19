@@ -28,9 +28,9 @@ $height-header_contact: 63px;
 $height-header_navigation: 117px;
 $height-body: calc(100vh - #{$height-header_contact + $height-header_navigation});
 
-$height-home-head: calc(96vh - #{$height-header_contact + $height-header_navigation});
+$height-home-head: calc(100vh - #{$height-header_contact + $height-header_navigation});
 
-$height-home-head-mobile: calc(96vh - #{$height-header_navigation});
+$height-home-head-mobile: calc(100vh - #{$height-header_navigation});
 $height-treatments-head: calc(50vh - #{$height-header_contact / 2 + $height-header_navigation});
 
 
