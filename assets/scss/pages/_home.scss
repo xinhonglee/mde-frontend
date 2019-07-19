@@ -79,7 +79,7 @@
   section.tenerife {
     display: flex;
     flex-direction: row;
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
       flex-direction: column;
     }
 
@@ -95,7 +95,7 @@
 
       .tenerife-right-content {
         padding-left: 128px;
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(md) {
           padding: 50px;
         }
 

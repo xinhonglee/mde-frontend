@@ -2,7 +2,7 @@
   <section class="treatments">
     <div class="container">
       <b-row>
-        <b-col md="12">
+        <b-col lg="12">
           <div class="treatments-title">
             <h2>Treatments</h2>
             <p>In our clinic we offer two kind of treatments. One focussing on Dental and one on esthetica. Read more
@@ -12,7 +12,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col md="4">
+        <b-col lg="4">
           <div class="treatments-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/treatments/dental.png"/>
@@ -27,7 +27,7 @@
             </div>
           </div>
         </b-col>
-        <b-col md="4">
+        <b-col lg="4">
           <div class="treatments-content-item">
             <div class="item-image">
               <img src="~/assets/images/home/treatments/esthetics.png"/>
@@ -42,7 +42,7 @@
             </div>
           </div>
         </b-col>
-        <b-col md="4">
+        <b-col lg="4">
           <div class="treatments-content-item">
             <div class="item-image">
               <img class="item-image-third" src="~/assets/images/home/treatments/natural-medicine.png"/>

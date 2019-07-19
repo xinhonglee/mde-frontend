@@ -10,7 +10,7 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col md="4">
+            <b-col lg="4">
               <div class="about-content-item">
                 <div class="item-image ">
                   <img class="image-first" src="~/assets/images/home/about/personal-approach.png"/>
@@ -21,7 +21,7 @@
                 </div>
               </div>
             </b-col>
-            <b-col md="4">
+            <b-col lg="4">
               <div class="about-content-item">
                 <div class="item-image ">
                   <img class="image-second" src="~/assets/images/home/about/broad-range.png"/>
@@ -32,7 +32,7 @@
                 </div>
               </div>
             </b-col>
-            <b-col md="4">
+            <b-col lg="4">
               <div class="about-content-item">
                 <div class="item-image">
                   <img class="image-third" src="~/assets/images/home/about/first-certificate.png"/>
