@@ -85,8 +85,13 @@
 
     .tenerife-left {
       flex: 1;
-      img {
-        width: 100%;
+      &-content {
+        height: 600px;
+        background: url(~assets/images/home/tenerife/michael-browning-40733-unsplash.png) no-repeat center;
+        background-size: cover;
+        @include media-breakpoint-down(md) {
+          height: 400px;
+        }
       }
     }
     .tenerife-right {
