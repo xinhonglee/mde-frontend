@@ -7,6 +7,14 @@
     height: $height-home-head;
     background-color: $color-app-primary;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    .container {
+      z-index: 1;
+      position: relative;
+    }
+
     @include media-breakpoint-down(sm) {
       height: $height-home-head-mobile;
     }
@@ -47,6 +55,9 @@
         max-width: 900px;
         font-size: 20px;
         font-weight: bold;
+        @include media-breakpoint-down(lg) {
+          max-width: 700px;
+        }
       }
     }
     .header-arrow_wrap {
@@ -67,12 +78,20 @@
     .header-bottom_back {
       position: absolute;
       bottom: 0;
-      height: 30vh;
-      width: 100%;
+      height: 275px;
+      width: 1314px;
       z-index: 0;
       background: url(~assets/images/logo.svg) no-repeat;
       background-size: cover;
       background-position: top;
+      left: 50%;
+      transform: translateX(-50%);
+      @include media-breakpoint-down(lg) {
+        width: 850px;
+      }
+      @include media-breakpoint-down(md) {
+        height: 350px;
+      }
     }
   }
 
@@ -100,7 +119,7 @@
 
       .tenerife-right-content {
         padding-left: 128px;
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(lg) {
           padding: 50px;
         }
 
@@ -199,6 +218,7 @@
       margin-top: 90px;
       padding: 50px 20px;
       background-color: $color-white;
+
       .item-image {
         img {
           width: auto;
@@ -213,11 +233,12 @@
         }
       }
       .item-description {
-        padding: 0 30px;
         h5 {
           margin-top: 80px;
         }
         p {
+          max-width: 357px;
+          margin: 0 auto;
           margin-top: 18px;
         }
       }
@@ -302,8 +323,8 @@
         }
         p {
           line-height: 1.3;
-          padding: 14px 50px;
-          margin-bottom: 0px;
+          max-width: 357px;
+          margin: 14px auto;
         }
         small {
           letter-spacing: 2.3px;
@@ -342,9 +363,9 @@
         }
       }
       .appointment-right-content {
-        padding-left: 130px;
+        padding-left: 128px;
 
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(lg) {
           padding: 50px;
         }
 
