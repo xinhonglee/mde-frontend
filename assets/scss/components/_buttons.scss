@@ -19,7 +19,7 @@
 .button-normal-round {
   @extend .button-round;
   font-size: 20px;
-  padding: 20px 40px;
+  padding: 18px 38px;
   @include media-breakpoint-down(sm) {
     padding: 20px 20px;
   }

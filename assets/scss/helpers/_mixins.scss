@@ -8,3 +8,7 @@
   position: relative;
   left: -$height-animate-tx;
 }
+@mixin home-subTitle {
+  font-size: 43px;
+  font-weight: bold;
+}

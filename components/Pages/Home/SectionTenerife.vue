@@ -14,7 +14,7 @@
               dolore magna aliqua.</p>
           </div>
           <div class="tenerife-right-button">
-            <a href="#" class="button-normal-round">More about the clinic</a>
+            <a href="#" class="button-normal-round"> Book an appointment </a>
           </div>
         </div>
       </div>
