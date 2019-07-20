@@ -9,7 +9,8 @@
   left: -$height-animate-tx;
 }
 @mixin home-subTitle {
-  font-size: 43px;
+  font-family: Yantramanav;
+  font-size: $font-size-x3-large;
   font-weight: bold;
   @include media-breakpoint-down(sm) {
     font-size: 30px;
