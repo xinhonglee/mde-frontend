@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  border: solid 2px $color-black;
+  border: solid 1.5px $color-black;
   font-size: $font-size-default;
   font-family: Inconsolata;
   font-weight: normal;
@@ -13,34 +13,32 @@
   letter-spacing: normal;
   text-align: center;
   color: $color-black;
-  padding: 20px 20px;
+  padding: 10px 10px;
   text-decoration: none !important;
 }
 .button-normal-round {
   @extend .button-round;
-  font-size: 20px;
-  padding: 18px 38px;
+  font-size: $font-size-default;
+  padding: 13px 30px;
   @include media-breakpoint-down(sm) {
-    padding: 20px 20px;
+    padding: 13px 20px;
   }
 }
 .button-small-round {
   @extend .button-round;
-  font-size: 16px;
+  font-size: $font-size-x1-small;
   font-weight: 600;
-  padding: 15px 28px;
+  padding: 11px 22px;
 }
 .button-extend-small-round {
   @extend .button-round;
-  font-size: 16px;
   font-weight: 600;
-  padding: 12px 40px;
+  padding: 7px 30px;
 }
 .button-extend-normal-round {
   @extend .button-round;
-  font-size: 20px;
-  padding: 20px 100px;
+  padding: 14px 74px;
   @include media-breakpoint-down(sm) {
-    padding: 20px 40px;
+    padding: 14px 40px;
   }
 }

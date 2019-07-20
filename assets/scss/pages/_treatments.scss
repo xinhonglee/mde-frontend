@@ -1,9 +1,14 @@
 #page_treatments {
-
+  padding-bottom: 110px;
+  .container {
+    z-index: 1;
+  }
   section.header {
     height: $height-treatments-head;
     background-color: $color-app-primary;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 
     .headline {
       position: relative;
@@ -11,25 +16,33 @@
 
       h1 {
         margin-top: -110px;
-        font-size: 54px;
+        font-size: $font-size-x5-large;
         color: $color-light-black;
         @include media-breakpoint-down(sm) {
           margin-top: -80px;
-          font-size: 40px;
+          font-size: $font-size-x3-large;
         }
       }
     }
 
     .header-bottom_back {
       position: absolute;
-      bottom: -10px;
-      height: 20vh;
-      width: 100%;
+      bottom: 0;
+      height: 175px;
+      width: 985px;
       z-index: 0;
-
       background: url(~assets/images/logo.svg) no-repeat;
       background-size: cover;
       background-position: top;
+      left: 50%;
+      transform: translateX(-50%);
+      @include media-breakpoint-down(lg) {
+        width: 850px;
+      }
+      @include media-breakpoint-down(md) {
+        width: 720px;
+        height: 125px;
+      }
     }
   }
 
@@ -42,25 +55,24 @@
     .menu-description {
       text-align: center;
       max-width: 100%;
-      margin-top: -35px;
+      margin-top: -22px;
       p {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: $font-size-small;
         margin: 0 auto;
-        max-width: 720px;
+        max-width: 600px;
       }
     }
     .menu-bar {
-      margin-top: 38px;
+      margin-top: 25px;
       padding-bottom: 12px;
 
       .menubar-content {
-        font-size: 26px;
+        font-size: $font-size-x2-x-large;
         list-style: none;
         display: flex;
         padding: 0;
         text-align: center;
-        max-width: 896px;
+        max-width: 600px;
         margin: 0 auto;
 
         @include media-breakpoint-down(md) {
@@ -74,16 +86,16 @@
             flex: 1;
           }
           &.dental-esthetics {
-            flex: 1.5;
+            flex: 2;
           }
           &.natural-medicine {
-            flex: 1.5;
+            flex: 2;
           }
 
           .menu-link {
             color: $color-light-black;
             display: inline-block;
-            font-size: 30px;
+            font-size: $font-size-x2-x-large;
             padding: 0;
             position: relative;
             text-decoration: none;
@@ -96,7 +108,7 @@
               background: $color-light-black;
               content: " ";
               display: block;
-              height: 5px;
+              height: 4.5px;
               margin-top: 5px;
               position: absolute;
               transform: scale(0);
@@ -113,33 +125,35 @@
   }
 
   section.treatments-content {
+    margin-top: -16px;
     text-align: center;
     .treatments-content-item {
-      margin-top: 80px;
-      padding: 50px 20px 10px 20px;
+      margin-top: 108px;
       background-color: $color-white;
       .item-image {
         img {
-          width: 70px;
-          height: 80px;
+          width: 50.7px;
+          height: auto;
         }
       }
       .item-description {
         h5 {
-          margin-top: 18px;
-
+          margin-top: 14px;
+          font-size: $font-size-x1-large;
+        }
+        h6 {
+          font-size: $font-size-small;
         }
         p {
-          margin-top: 37px;
-          font-size: 16px;
+          font-size: $font-size-small;
+          max-width: 250px;
+          margin:0 auto;
+          margin-top: 25px;
         }
       }
       .item-button {
-        margin-top: 26px;
+        margin-top: 15px;
       }
-    }
-    .body-content-group {
-      margin-bottom: 142px;
     }
   }
 }

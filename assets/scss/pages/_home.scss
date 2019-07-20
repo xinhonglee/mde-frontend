@@ -12,7 +12,6 @@
 
     .container {
       z-index: 1;
-      position: relative;
     }
 
     @include media-breakpoint-down(sm) {
@@ -20,22 +19,22 @@
     }
 
     h1 {
-      margin-top: -219px;
-      font-size: 78px;
+      margin-top: -145px;
+      font-size: $font-size-x6-large;
       font-family: Yantramanav;
       font-weight: bold;
       @include media-breakpoint-down(sm) {
         margin-top: -180px;
-        font-size: 40px;
+        font-size: $font-size-x3-large;
       }
     }
     h2 {
-      font-size: 54px;
+      font-size: $font-size-x4-large;
       font-weight: normal;
       font-family: Yantramanav;
       padding-bottom: 6px;
       @include media-breakpoint-down(sm) {
-        font-size: 30px;
+        font-size: $font-size-x2-large;
       }
     }
     .header-bottom {
@@ -52,8 +51,8 @@
         font-family: Inconsolata;
         margin: 0 auto;
         padding-bottom: 34px;
-        max-width: 900px;
-        font-size: 20px;
+        max-width: 680px;
+        font-size: $font-size-default;
         font-weight: bold;
         @include media-breakpoint-down(lg) {
           max-width: 700px;
@@ -70,7 +69,7 @@
       }
 
       img.header-arrow {
-        width: 24px;
+        width: 20px;
         animation: bounce 2s infinite;
         cursor: pointer;
       }
@@ -78,8 +77,8 @@
     .header-bottom_back {
       position: absolute;
       bottom: 0;
-      height: 275px;
-      width: 1314px;
+      height: 262px;
+      width: 985px;
       z-index: 0;
       background: url(~assets/images/logo.svg) no-repeat;
       background-size: cover;
@@ -90,7 +89,8 @@
         width: 850px;
       }
       @include media-breakpoint-down(md) {
-        height: 350px;
+        width: 720px;
+        height: 300px;
       }
     }
   }
@@ -105,10 +105,10 @@
     .tenerife-left {
       flex: 1;
       &-content {
-        height: 600px;
+        height: 656px;
         background: url(~assets/images/home/tenerife/michael-browning-40733-unsplash.png) no-repeat center;
         background-size: cover;
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(lg) {
           height: 400px;
         }
       }
@@ -118,29 +118,27 @@
       align-items: center;
 
       .tenerife-right-content {
-        padding-left: 128px;
+        padding-left: 95px;
         @include media-breakpoint-down(lg) {
           padding: 50px;
         }
 
         .tenerife-right-title {
-          max-width: 550px;
+          max-width: 411px;
           h2 {
-            font-family: Yantramanav;
-            font-size: 47px;
-            font-weight: bold;
+            @include home-subTitle;
             padding-top: 20px;
             line-height: 1.34;
             @include media-breakpoint-down(sm) {
-              font-size: 30px;
+              font-size: $font-size-x3-large;
             }
           }
         }
         .tenerife-right-description {
-          max-width: 550px;
+          max-width: 411px;
           p {
             margin-top: 28px;
-            font-size: 22px;
+            font-size: $font-size-large;
             line-height: 1.4;
           }
         }
@@ -155,43 +153,42 @@
 
   section.about {
     @extend .section-base;
-    padding: 150px 0;
     text-align: center;
     background: $color-app-third;
     .about-title {
-      margin-top: -50px;
       h2 {
         @include home-subTitle;
       }
     }
 
     .about-content-item {
-      margin-top: 90px;
+      margin-top: 60px;
+      margin-bottom: 35px;
+
       .item-image {
-        img {
-          width: 154px;
-          height: 140px;
+        height: 105px;
+        img.image-first {
+          width: auto;
+          height: 103.5px;
         }
-        .image-second {
+        img.image-second {
           padding-top: 15px;
-          width: 154px;
-          height: 140px;
+          width: auto;
+          height: 92.4px;
         }
-        .image-third {
+        img.image-third {
           padding-top: 14px;
-          width: 90px;
-          height: 132px;
+          width: auto;
+          height: 89.5px;
         }
       }
       .item-description {
         h5 {
-          margin-top: 67px;
+          margin-top: 54px;
         }
         p {
           line-height: 1.3;
-          margin-top: 18px;
-          padding: 0 52px;
-
+          margin-top: 10px;
         }
       }
     }
@@ -204,51 +201,49 @@
 
     .treatments-title {
       h2 {
-        margin-top: -16px;
+        margin-top: -7px;
         @include home-subTitle;
       }
       p {
-        max-width: 720px;;
+        max-width: 560px;;
         margin: 0 auto;
-        padding-top: 18px;
+        padding-top: 10px;
         line-height: 1.3;
+        font-size: $font-size-small;
       }
     }
 
     .treatments-content-item {
-      margin-top: 90px;
-      padding: 50px 20px;
+      margin-top: 70px;
+      padding: 40px 20px;
       background-color: $color-white;
 
       .item-image {
+        height: 92px;
         img {
           width: auto;
-          height: 120px;
-          margin-top: 34px;
+          height: 92px;
+          margin-top: 24px;
         }
         .item-image-third {
-          width: 130px;
-          height: 96px;
+          width: auto;
+          height: 70.2px;
           margin-top: 55px;
           margin-left: 20px;
         }
       }
       .item-description {
         h5 {
-          margin-top: 80px;
+          margin-top: 81px;
         }
         p {
           max-width: 357px;
           margin: 0 auto;
-          margin-top: 18px;
+          margin-top: 15px;
         }
       }
       .item-button {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        a {
-          font-size: 20px;
-        }
+        margin: 15px 0;
       }
     }
   }
@@ -265,7 +260,7 @@
     }
 
     .shop-content-item {
-      margin-top: 80px;
+      margin-top: 27px;
 
       .item-image {
         img {
@@ -274,58 +269,61 @@
         }
       }
       .item-description {
-        margin-top: 40px;
+        margin-top: 5px;
         p {
-          max-width: 250px;
+          max-width: 180px;
           margin: 0 auto;
+          font-size: $font-size-small;
         }
       }
       .item-price {
         p {
-          margin-top: 14px;
+          margin-top: 8px;
         }
         span {
           text-decoration: line-through;
         }
       }
       .item-button {
-        margin-top: 28px;
+        margin-top: 20px;
       }
     }
     .shop-more {
-      margin-top: 80px;
-      margin-bottom: 60px;
+      margin-top: 61px;
+      margin-bottom: 44px;
     }
   }
 
   section.news {
     @extend .section-base;
+    padding-bottom: 62px;
     text-align: center;
     background: $color-app-secondary;
 
     .news-title {
-      margin-top: -24px;
+      margin-top: -16px;
       h2 {
         @include home-subTitle;
       }
     }
     .news-content-item {
-      margin-top: 51px;
+      margin-top: 35px;
 
       .item-image {
         img {
           width: 100%;
-          height: 312px;
+          height: 235.5px;
         }
       }
       .item-description {
         h5 {
-          margin-top: 30px;
+          margin-top: 23px;
         }
         p {
           line-height: 1.3;
-          max-width: 357px;
+          max-width: 271px;
           margin: 14px auto;
+          font-size: $font-size-small;
         }
         small {
           letter-spacing: 2.3px;
@@ -333,7 +331,7 @@
       }
     }
     .news-more {
-      margin-top: 60px;
+      margin-top: 42px;
     }
   }
 
@@ -348,11 +346,11 @@
       flex: 1;
       #map {
         width: 100%;
-        height: 700px;
+        height: 525px;
         background-color: $color-app-third;
         text-align: center;
-        @include media-breakpoint-down(md) {
-          height: 500px;
+        @include media-breakpoint-down(lg) {
+          height: 400px;
         }
       }
     }
@@ -363,30 +361,30 @@
       .appointment-right-title {
         h2 {
           @include home-subTitle;
+          margin-top: 40px;
         }
       }
       .appointment-right-content {
-        padding-left: 128px;
+        padding-left: 95px;
 
         @include media-breakpoint-down(lg) {
           padding: 50px;
         }
 
         .appointment-right-title {
-          max-width: 550px;
-          margin-top: -6px;
+          max-width: 411px;
+          h5 {
+            margin-top: 35px;
+          }
         }
         .appointment-right-description {
-          max-width: 550px;
+          max-width: 411px;
           p {
-            margin-top: 30px;
-            font-size: 22px;
+            font-size: $font-size-large;
+            margin-top: 22px;
           }
         }
         .appointment-right-button {
-          a {
-            margin-top: 30px;
-          }
         }
       }
     }
