@@ -12,7 +12,7 @@
     padding-bottom: 20px;
     font-size: $font-size-small;
   }
-  p {
+  p, span {
     font-size: $font-size-x2-small;
   }
 
@@ -45,9 +45,6 @@
     margin-top: 15px;
     .footer-left {
       padding-top: 10px;
-      @include media-breakpoint-down(sm) {
-        flex-direction: column;
-      }
     }
 
     .footer-left-about {
@@ -56,16 +53,13 @@
 
     .footer-left-contact {
       flex: 1.9;
-      @include media-breakpoint-down(sm) {
-        margin-top: 30px;
-      }
     }
 
     .footer-right-content{
       margin-top:25px;
       margin-left: -20px;
       @include media-breakpoint-down(sm) {
-        margin-left: 0px;
+        margin-left: 0;
       }
       h5 {
         padding-bottom: 0;
