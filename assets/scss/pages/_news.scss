@@ -1,0 +1,100 @@
+#page_news {
+  font-family: Yantramanav;
+  color: $color-light-black;
+  section.header {
+    height: $height-news-head;
+    background-color: $color-app-primary;
+    text-align: center;
+
+    .headline {
+      position: relative;
+      z-index: 1;
+
+      h1 {
+        margin-top: -150px;
+        font-size: 60px;
+        color: $color-light-black;
+        font-weight: bold;
+        @include media-breakpoint-down(sm) {
+          margin-top: -80px;
+          font-size: 40px;
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+  section.news-content {
+    margin-top: -170px;
+    text-align: left;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+    .news-content-header {
+      .news-content-header-image {
+        height: 546px;
+        background: #f0f0f0;
+      }
+      .news-content-header-description {
+        margin-left: -10px;
+        margin-top: -6px;
+        .item-content {
+          h2 {
+            font-size: 44px;
+            font-weight: bold;
+            @include media-breakpoint-down(md) {
+              padding-top: 40px;
+            }
+          }
+          h3 {
+            margin-top: 23px;
+            font-size: 24px;
+            line-height: 1.33;
+          }
+          p {
+            padding-top: 18px;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: Inconsolata;
+          }
+        }
+      }
+    }
+    .news-content-item {
+      margin-top: 54px;
+      background-color: $color-white;
+      .item-image {
+        background-color: #f0f0f0;
+        height: 326px;
+      }
+      .item-description {
+        h5 {
+          font-size: 24px;
+          padding-top: 30px;
+          font-weight: bold;
+        }
+        h6 {
+          padding-top: 6px;
+          font-size: 17px;
+          line-height: 1.33;
+        }
+        p {
+          font-family: Inconsolata;
+          font-weight: bold;
+          padding-top: 15px;
+          font-size: 14px;
+          line-height: 1.07;
+        }
+      }
+    }
+    .item-button {
+      display: flex;
+      justify-content: center;
+      padding-top: 108px;
+      padding-bottom: 54px;
+      .button-extend-normal-round {
+        padding: 18px 96px;
+      }
+    }
+  }
+}

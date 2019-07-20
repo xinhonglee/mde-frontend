@@ -33,13 +33,13 @@
                     <b-col offset-md="4" md="2" class="footer-right">
                         <div class="footer-right-content">
                             <h5>Social Media</h5>
-                            <div class="footer-facebook-content">
+                            <div class="footer-facebook-content d-flex my-n2">
                                 <img src="~/assets/images/icons/facebook-image.png">
-                                <span>Facebook</span>
+                                <p>Facebook</p>
                             </div>
-                            <div class="footer-instagram-content mt-2">
+                            <div class="footer-instagram-content mt-2 d-flex">
                                 <img src="~/assets/images/icons/instagram-image.png">
-                                <span>Instagram</span>
+                                <p>Instagram</p>
                             </div>
                         </div>
                     </b-col>
