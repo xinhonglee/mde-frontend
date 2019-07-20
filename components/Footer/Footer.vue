@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <b-row class="footer-content">
-                    <b-col md="6" class="footer-left d-flex">
+                    <b-col sm="6" class="footer-left d-flex">
                         <div class="footer-left-about">
                           <h5>About</h5>
                           <p>About us</p>
@@ -30,7 +30,7 @@
                             38530</p>
                         </div>
                     </b-col>
-                    <b-col offset-md="4" md="2" class="footer-right">
+                    <b-col offset-sm="4" sm="2" class="footer-right">
                         <div class="footer-right-content">
                             <h5>Social Media</h5>
                             <div class="footer-facebook-content">
