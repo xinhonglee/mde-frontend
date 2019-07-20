@@ -3,7 +3,7 @@
         <div class="container h-100 position-relative">
             <div class="v-middle_wrap">
                 <div class="headline v-middle">
-                    <h1>All treatments</h1>
+                    <h1>{{title}}</h1>
                 </div>
             </div>
         </div>
@@ -13,7 +13,13 @@
 
 <script>
   export default {
-    name: "app-page-treatments-header"
+    name: "app-page-treatments-header",
+    props: {
+      title: {
+        type: String,
+        default: 'All Treatments'
+      }
+    }
   }
 </script>
 

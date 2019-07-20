@@ -27,12 +27,15 @@ module.exports = {
   /**
    * Route
    */
-  route: {},
+  route: {
+
+  },
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    "~plugins/global.js"
+    "~plugins/global.js",
+    { src: "~plugins/slick-slide.js", ssr: false }
   ],
   /*
   ** Nuxt.js modules
