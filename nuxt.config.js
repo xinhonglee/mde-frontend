@@ -35,7 +35,9 @@ module.exports = {
   */
   plugins: [
     "~plugins/global.js",
-    { src: "~plugins/slick-slide.js", ssr: false }
+    { src: "~plugins/slick-slide.js", ssr: false },
+    // { src: '~/plugins/vuex-persist', ssr: false },
+    "~/plugins/eventBus"
   ],
   /*
   ** Nuxt.js modules
@@ -59,6 +61,6 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-    }
+    },
   }
 }
