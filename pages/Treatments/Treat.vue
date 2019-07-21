@@ -29,7 +29,7 @@
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Treatment',
       meta: [
         {
           hid: 'description',
