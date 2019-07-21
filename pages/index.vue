@@ -36,7 +36,9 @@
     },
     mounted() {
       paintCommon();
-      this.$store.commit('background/default');
+      this.$nextTick(() => {
+        this.$store.commit('background/default');
+      });
     },
     layout: 'default',
     head: {

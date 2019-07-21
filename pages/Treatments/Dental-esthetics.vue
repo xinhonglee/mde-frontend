@@ -21,7 +21,7 @@
     },
     data() {
       return {
-        backgroundColor: '#c0e4da',
+        backgroundColor: '#c7f9c6',
       };
     },
     mounted() {

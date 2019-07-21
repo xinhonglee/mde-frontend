@@ -36,7 +36,8 @@ module.exports = {
   plugins: [
     "~plugins/global.js",
     { src: "~plugins/slick-slide.js", ssr: false },
-    "~/plugins/eventBus",
+    // { src: '~/plugins/vuex-persist', ssr: false },
+    "~/plugins/eventBus"
   ],
   /*
   ** Nuxt.js modules

@@ -1,12 +1,17 @@
+const data = {
+  color: '#c0e4da',
+};
+
+
 export const state = () => ({
-  color: '#c0e4da'
+  color: data.color
 });
 
 export const mutations = {
-  set(state, background) {
-    state.color = background;
+  set(state, color) {
+    state.color = color;
   },
   default(state) {
-    state.color = '#c0e4da'
+    state.color = data.color;
   }
 };

@@ -105,19 +105,13 @@
               {
                 title: 'Specs 1',
                 description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
-              }
-            ]
-          },
-          {
-            description: `Lorem ipsum dolor sit amet, consectetur adipm.Lorem ipsum ea commodo consequat. Duis aute irure
-                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      Lorem ipsum dolor sit amet, consectetur adipm.Lorem ipsum ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
-            specs: [
+              },
               {
-                title: 'Specs 1',
+                title: 'Specs 2',
+                description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
+              },
+              {
+                title: 'Specs 3',
                 description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
               }
             ]
@@ -132,6 +126,36 @@
             specs: [
               {
                 title: 'Specs 1',
+                description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
+              },
+              {
+                title: 'Specs 2',
+                description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
+              },
+              {
+                title: 'Specs 3',
+                description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
+              }
+            ]
+          },
+          {
+            description: `Lorem ipsum dolor sit amet, consectetur adipm.Lorem ipsum ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Lorem ipsum dolor sit amet, consectetur adipm.Lorem ipsum ea commodo consequat. Duis aute irure dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+            specs: [
+              {
+                title: 'Specs 1',
+                description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
+              },
+              {
+                title: 'Specs 2',
+                description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
+              },
+              {
+                title: 'Specs 3',
                 description: 'In our clinic we offer two kind of treatments. Read more about all our treatments below.'
               }
             ]
