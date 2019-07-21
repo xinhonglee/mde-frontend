@@ -20,10 +20,13 @@
       AppPageTreatmentsDentalContent,
     },
     data() {
-      return {};
+      return {
+        backgroundColor: '#ddd8e5',
+      };
     },
     mounted() {
       paintCommon();
+      this.$store.commit('background/set', this.backgroundColor);
     },
     layout: 'default',
     head: {

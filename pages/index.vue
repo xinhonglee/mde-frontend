@@ -36,6 +36,7 @@
     },
     mounted() {
       paintCommon();
+      this.$store.commit('background/default');
     },
     layout: 'default',
     head: {

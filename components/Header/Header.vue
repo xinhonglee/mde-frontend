@@ -13,10 +13,13 @@
   import AppHeaderNavigation from "./Navigation";
   export default {
     name: "app-header",
+    props: {
+      backgroundColor: String
+    },
     components: {
       AppHeaderNavigation,
       AppHeaderContact
-    }
+    },
   }
 </script>
 

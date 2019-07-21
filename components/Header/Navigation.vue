@@ -1,5 +1,5 @@
 <template>
-  <div class="app-header_navigation">
+  <div class="app-header_navigation" :style="{backgroundColor: backgroundColor}">
     <div class="container">
       <b-navbar toggleable="lg" type="dark">
         <b-navbar-brand href="/"><img src="~/assets/images/logo.svg"></b-navbar-brand>
@@ -23,7 +23,19 @@
 
 <script>
   export default {
-    name: "app-header-navigation"
+    name: "app-header-navigation",
+    data() {
+      return {
+      }
+    },
+    computed: {
+      backgroundColor() {
+        if(this.$store.state.background.color) {
+         return  this.$store.state.background.color;
+        }
+        return '#c0e4da';
+      }
+    }
   }
 </script>
 
