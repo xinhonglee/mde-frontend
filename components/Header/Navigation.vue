@@ -1,5 +1,5 @@
 <template>
-  <div class="app-header_navigation" :style="{backgroundColor: backgroundColor}">
+  <div class="app-header_navigation" :style="{background: backgroundColor}">
     <div class="container">
       <b-navbar toggleable="lg" type="dark">
         <b-navbar-brand href="/"><img src="~/assets/images/logo.svg"></b-navbar-brand>
@@ -31,6 +31,7 @@
     computed: {
       backgroundColor() {
         if(this.$store.state.background.color) {
+         console.log(this.$store.state.background.color)
          return  this.$store.state.background.color;
         }
         return '#c0e4da';

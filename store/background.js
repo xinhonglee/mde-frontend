@@ -4,7 +4,7 @@ const data = {
 
 const changeBodyBackground =(color) => {
   const body = document.getElementsByTagName('body');
-  body[0].style.backgroundColor = color;
+  body[0].style.background = color;
 };
 
 export const state = () => ({

@@ -1,5 +1,5 @@
 <template>
-  <section class="header" :style="{backgroundColor: backgroundColor}">
+  <section class="header" :style="{background: backgroundColor}">
     <div class="container h-100 position-relative">
       <div class="v-middle_wrap">
         <div class="headline v-middle">
