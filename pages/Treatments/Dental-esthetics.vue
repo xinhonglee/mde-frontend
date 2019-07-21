@@ -21,7 +21,7 @@
     },
     data() {
       return {
-        backgroundColor: '#c7f9c6',
+        backgroundColor: `linear-gradient(to right, #cde8f0, #cde8f0 50%, #c0e4da 50%, #c0e4da 100%)`,
       };
     },
     mounted() {
