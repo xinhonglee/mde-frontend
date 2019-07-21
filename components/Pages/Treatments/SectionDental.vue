@@ -14,7 +14,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                          <nuxt-link active-class="active" to="/treatments/treat?id=1" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -30,7 +30,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                            <nuxt-link active-class="active" to="/treatments/treat?id=2" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -46,7 +46,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                            <nuxt-link active-class="active" to="/treatments/treat?id=3" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -62,7 +62,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                            <nuxt-link active-class="active" to="/treatments/treat?id=4" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -80,7 +80,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                            <nuxt-link active-class="active" to="/treatments/treat?id=5" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -96,7 +96,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                            <nuxt-link active-class="active" to="/treatments/treat?id=6" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -112,7 +112,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                            <nuxt-link active-class="active" to="/treatments/treat?id=7" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -128,7 +128,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                            <nuxt-link active-class="active" to="/treatments/treat?id=8" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -146,7 +146,7 @@
                                 below. </p>
                         </div>
                         <div class="item-button">
-                            <a href="#" class="button-extend-normal-round">Read More</a>
+                            <nuxt-link active-class="active" to="/treatments/treat?id=9" class="button-extend-normal-round">Read More</nuxt-link>
                         </div>
                     </div>
                 </b-col>
@@ -157,7 +157,9 @@
 
 <script>
   export default {
-    name: "app-page-treatments-dental-content"
+    name: "app-page-treatments-dental-content",
+    methods: {
+    }
   }
 </script>
 
