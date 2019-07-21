@@ -21,7 +21,7 @@
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'News',
       meta: [
         {
           hid: 'description',

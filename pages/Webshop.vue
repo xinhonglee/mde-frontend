@@ -21,7 +21,7 @@
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Webshop',
       meta: [
         {
           hid: 'description',

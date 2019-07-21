@@ -36,13 +36,11 @@
     },
     mounted() {
       paintCommon();
-      this.$nextTick(() => {
-        this.$store.commit('background/default');
-      });
+      this.$store.commit('background/default');
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Home',
       meta: [
         {
           hid: 'description',

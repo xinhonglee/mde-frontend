@@ -30,7 +30,7 @@
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Natural Medicine Category',
       meta: [
         {
           hid: 'description',

@@ -36,7 +36,7 @@ module.exports = {
   plugins: [
     "~plugins/global.js",
     { src: "~plugins/slick-slide.js", ssr: false },
-    // { src: '~/plugins/vuex-persist', ssr: false },
+    { src: '~/plugins/vuex-persist', ssr: false },
     "~/plugins/eventBus"
   ],
   /*

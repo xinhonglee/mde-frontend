@@ -30,7 +30,7 @@
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Dental Category',
       meta: [
         {
           hid: 'description',
