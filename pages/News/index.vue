@@ -1,17 +1,21 @@
 <template>
   <div id="page_news" class="main">
-    <div class="container">
-      <div class="headline text-center">
-        <h1>News</h1>
-      </div>
-    </div>
+    <app-page-news-header/>
+    <app-page-news-list/>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
+  import AppPageNewsHeader from "~/components/Pages/News/SectionHeader";
+  import AppPageNewsList from "~/components/Pages/News/SectionNewsList";
+
   export default {
     name: "app-page-news",
+    components: {
+      AppPageNewsHeader,
+      AppPageNewsList
+    },
     data() {
       return {};
     },
