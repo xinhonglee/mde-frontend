@@ -56,6 +56,12 @@
     }
 
     .news-list {
+      h2 {
+        text-align: center;
+        margin: 50px 0;
+        font-size: $font-size-x2-large;
+        color: $color-light-black;
+      }
       .news-item {
         margin-top: 50px;
       }
@@ -86,6 +92,35 @@
     .view-more {
       margin-top: 100px;
       text-align: center;
+    }
+
+    .slider-item {
+      &-image {
+        height: 400px;
+        max-width: 720px;
+        background: $color-app-third;
+        margin: 0 auto;
+      }
+      &-description {
+        max-width: 720px;
+        margin: 0 auto;
+        margin-top: 100px;
+        color: $color-light-black;
+
+        p {
+          font-size: $font-size-x1-large;
+        }
+        small {
+          display: block;
+          margin-top: 40px;
+          font-size: $font-size-x1-small;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .slick-next, .slick-prev {
+      top: 180px;
     }
   }
 }

@@ -1,39 +1,30 @@
 <template>
   <div id="page_news" class="main">
-    <app-page-news-header/>
-    <app-page-news-list/>
+    <app-page-news-header :title="title"/>
+    <app-page-news-item-content/>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
   import AppPageNewsHeader from "~/components/Pages/News/SectionHeader";
-  import AppPageNewsList from "~/components/Pages/News/SectionList";
+  import AppPageNewsItemContent from "~/components/Pages/News/SectionItem";
 
   export default {
-    name: "app-page-news",
+    name: "app-page-news-item",
     components: {
       AppPageNewsHeader,
-      AppPageNewsList
+      AppPageNewsItemContent
     },
     data() {
-      return {};
+      return {
+        title: 'News title'
+      };
     },
     mounted() {
       paintCommon();
       this.$store.commit('background/default');
     },
-    layout: 'default',
-    head: {
-      title: 'News',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'Your next web design and development team'
-        }
-      ]
-    }
   }
 </script>
 
