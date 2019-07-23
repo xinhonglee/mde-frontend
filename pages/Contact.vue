@@ -1,17 +1,17 @@
 <template>
   <div id="page_contact" class="main">
-    <div class="container">
-      <div class="headline text-center">
-        <h1>Contact</h1>
-      </div>
-    </div>
+    <app-page-contact-form/>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
+  import AppPageContactForm from "~/components/pages/Contact/SectionForm";
   export default {
     name: "app-page-contact",
+    components: {
+      AppPageContactForm
+    },
     data() {
       return {};
     },

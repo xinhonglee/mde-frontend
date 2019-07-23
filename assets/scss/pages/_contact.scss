@@ -1,0 +1,19 @@
+#page_contact {
+  section.contact-form {
+    background: $color-app-primary;
+
+    .contact-form-title {
+      h1 {
+        text-align: center;
+        font-size: $font-size-x5-large;
+        font-family: Yantramanav;
+        font-weight: bold;
+      }
+    }
+
+    form {
+      max-width: 717px;
+      margin: 0 auto;
+    }
+  }
+}
