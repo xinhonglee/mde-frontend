@@ -54,9 +54,9 @@
 
         <label>Message</label>
         <b-form-textarea
-          placeholder="Yes I agree on the term and service, read them here."
-          rows="3"
-          max-rows="6"
+          placeholder="Yes I agree on the term and service."
+          rows="6"
+          max-rows="10"
           v-model="form.message">
         </b-form-textarea>
 
