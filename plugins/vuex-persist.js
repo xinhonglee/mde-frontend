@@ -1,6 +1,6 @@
-// import VuexPersistence from 'vuex-persist'
-//
-// export default ({ store }) => {
-//     new VuexPersistence({
-//     }).plugin(store);
-// }
+import VuexPersistence from 'vuex-persist'
+
+export default ({ store }) => {
+    new VuexPersistence({
+    }).plugin(store);
+}

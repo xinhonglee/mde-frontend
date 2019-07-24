@@ -75,6 +75,8 @@
 
       </b-form>
     </div>
+
+    <div class="contact-form-back"></div>
   </section>
 </template>
 
