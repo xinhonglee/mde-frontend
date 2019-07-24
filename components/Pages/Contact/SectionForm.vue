@@ -13,7 +13,7 @@
               <b-form-input type="text"
                             id="first_name"
                             placeholder="Type Here"
-                            v-model="firstName"
+                            v-model="form.firstName"
                             required/>
             </b-form-group>
           </b-col>
@@ -22,7 +22,7 @@
               <b-form-input type="text"
                             id="last_name"
                             placeholder="Type Here"
-                            v-model="lastName"
+                            v-model="form.lastName"
                             required/>
             </b-form-group>
           </b-col>
@@ -32,7 +32,7 @@
           <b-form-input type="email"
                         id="email"
                         placeholder="Type Here"
-                        v-model="email"
+                        v-model="form.email"
                         required/>
         </b-form-group>
 
@@ -40,7 +40,7 @@
           <b-form-input type="text"
                         id="phone"
                         placeholder="Type Here"
-                        v-model="phone"
+                        v-model="form.phone"
                         required/>
         </b-form-group>
 
@@ -48,7 +48,7 @@
           <b-form-input type="text"
                         id="address"
                         placeholder="Type Here"
-                        v-model="address"
+                        v-model="form.address"
                         required/>
         </b-form-group>
 
@@ -57,7 +57,7 @@
           placeholder="Yes I agree on the term and service, read them here."
           rows="3"
           max-rows="6"
-          v-model="message">
+          v-model="form.message">
         </b-form-textarea>
 
         <b-form-checkbox
@@ -65,7 +65,7 @@
           name="accept"
           value="accepted"
           unchecked-value="not_accepted"
-          v-model="status">
+          v-model="form.status">
           Yes I agree on the term and service, read them here.
         </b-form-checkbox>
 
