@@ -119,23 +119,19 @@
 
       .tenerife-right-content {
         padding-left: 95px;
+        max-width: 506px;
         @include media-breakpoint-down(lg) {
           padding: 50px;
         }
 
         .tenerife-right-title {
-          max-width: 411px;
           h2 {
             @include home-subTitle;
             padding-top: 20px;
             line-height: 1.34;
-            @include media-breakpoint-down(sm) {
-              font-size: $font-size-x3-large;
-            }
           }
         }
         .tenerife-right-description {
-          max-width: 411px;
           p {
             margin-top: 28px;
             font-size: $font-size-large;
@@ -357,28 +353,22 @@
 
     .appointment-right {
       flex: 1;
-      align-items: center;
-      .appointment-right-title {
-        h2 {
-          @include home-subTitle;
-          margin-top: 40px;
-        }
-      }
+
       .appointment-right-content {
         padding-left: 95px;
+        max-width: 506px;
 
         @include media-breakpoint-down(lg) {
           padding: 50px;
         }
 
         .appointment-right-title {
-          max-width: 411px;
-          h5 {
-            margin-top: 35px;
+          h2 {
+            @include home-subTitle;
+            margin-top: 40px;
           }
         }
         .appointment-right-description {
-          max-width: 411px;
           p {
             font-size: $font-size-large;
             margin-top: 22px;

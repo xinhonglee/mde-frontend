@@ -13,6 +13,6 @@
   font-size: $font-size-x3-large;
   font-weight: bold;
   @include media-breakpoint-down(sm) {
-    font-size: 30px;
+    font-size: $font-size-x2-large ;
   }
 }

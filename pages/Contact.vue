@@ -1,16 +1,19 @@
 <template>
   <div id="page_contact" class="main">
     <app-page-contact-form/>
+    <app-page-contact-appointment/>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
   import AppPageContactForm from "~/components/pages/Contact/SectionForm";
+  import AppPageContactAppointment from "~/components/pages/Contact/SectionAppointment";
   export default {
     name: "app-page-contact",
     components: {
-      AppPageContactForm
+      AppPageContactForm,
+      AppPageContactAppointment
     },
     data() {
       return {};
