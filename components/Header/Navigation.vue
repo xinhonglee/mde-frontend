@@ -31,7 +31,6 @@
     computed: {
       backgroundColor() {
         if(this.$store.state.background.color) {
-         console.log(this.$store.state.background.color)
          return  this.$store.state.background.color;
         }
         return '#c0e4da';
