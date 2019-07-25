@@ -17,10 +17,10 @@
                         <li class="menubar-item esthetics">
                             <nuxt-link active-class="active" to="/treatments/esthetics" class="menu-link" exact>Esthetics</nuxt-link>
                         </li>
-                        <li class="menubar-item dental-esthetics">
-                            <nuxt-link active-class="active" to="/treatments/dental-esthetics" class="menu-link" exact>Dental@Esthetics
-                            </nuxt-link>
-                        </li>
+                        <!--<li class="menubar-item dental-esthetics">-->
+                            <!--<nuxt-link active-class="active" to="/treatments/dental-esthetics" class="menu-link" exact>Dental@Esthetics-->
+                            <!--</nuxt-link>-->
+                        <!--</li>-->
                         <li class="menubar-item natural-medicine">
                             <nuxt-link active-class="active" to="/treatments/natural-medicine" class="menu-link" exact>Natural@Medicine
                             </nuxt-link>
