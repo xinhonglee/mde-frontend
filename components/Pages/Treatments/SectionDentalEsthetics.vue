@@ -1,8 +1,8 @@
 <template>
-  <section class="treatments-dentalEsthetics">
+  <section class="treatments-dental-esthetics">
     <div class="container">
-      <b-row class="treatments-dentalEsthetics-content">
-        <b-col lg="6" md="6">
+      <b-row class="treatments-dental-esthetics-content">
+        <b-col md="6">
           <div class="treatments-content-item">
             <div class="item-image">
               <img src="~/assets/images/treatments/dental-esthetics-tooth.png"/>
@@ -23,7 +23,7 @@
             </div>
           </div>
         </b-col>
-        <b-col lg="6" md="6">
+        <b-col md="6">
           <div class="treatments-content-item">
             <div class="item-image">
               <img src="~/assets/images/treatments/dental-esthetics-tooth.png"/>

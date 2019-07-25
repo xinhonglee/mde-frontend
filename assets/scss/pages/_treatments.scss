@@ -127,99 +127,105 @@
   }
 
   section.treatments-content {
-     margin-top: -16px;
-     text-align: center;
-     h3 {
-       margin-top: 50px;
-       font-size: $font-size-x2-large;
-     }
-     .treatments-content-item {
-       margin-top: 108px;
-       background-color: $color-white;
-       .item-image {
-         img {
-           width: 50.7px;
-           height: auto;
-         }
-       }
-       .item-description {
-         h5 {
-           margin-top: 14px;
-           font-size: $font-size-x1-large;
-         }
-         h6 {
-           font-size: $font-size-small;
-         }
-         p {
-           font-size: $font-size-small;
-           max-width: 250px;
-           margin: 0 auto;
-           margin-top: 25px;
-         }
-       }
-       .item-button {
-         margin-top: 15px;
-       }
-     }
+    margin-top: -16px;
+    text-align: center;
+    h3 {
+      margin-top: 50px;
+      font-size: $font-size-x2-large;
+    }
+    .treatments-content-item {
+      margin-top: 108px;
+      background-color: $color-white;
+      .item-image {
+        img {
+          width: 50.7px;
+          height: auto;
+        }
+      }
+      .item-description {
+        h5 {
+          margin-top: 14px;
+          font-size: $font-size-x1-large;
+        }
+        h6 {
+          font-size: $font-size-small;
+        }
+        p {
+          font-size: $font-size-small;
+          max-width: 250px;
+          margin: 0 auto;
+          margin-top: 25px;
+        }
+      }
+      .item-button {
+        margin-top: 15px;
+      }
+    }
 
-     #slider {
-       margin-top: -20px;
-     }
+    #slider {
+      margin-top: -20px;
+    }
 
-     .slider-item {
+    .slider-item {
 
-       &-image > img {
-         width: 98px;
-         margin: 0 auto;
-       }
+      &-image > img {
+        width: 98px;
+        margin: 0 auto;
+      }
 
-       &-description {
-         text-align: left;
-         font-size: $font-size-large;
-         max-width: 717px;
-         margin: 0 auto;
-         margin-top: 40px;
-       }
+      &-description {
+        text-align: left;
+        font-size: $font-size-large;
+        max-width: 717px;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
 
-       &-specs {
-         display: flex;
-         max-width: 800px;
-         margin: 0 auto;
-         margin-top: 80px;
-         &-item {
-           flex: 1;
-           &-description {
-             max-width: 260px;
-             margin: 0 auto;
-             margin-top: 15px;
-             font-size: $font-size-small;
-           }
-         }
-       }
-     }
-   }
+      &-specs {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 80px;
+        &-item {
+          flex: 1;
+          &-description {
+            max-width: 260px;
+            margin: 0 auto;
+            margin-top: 15px;
+            font-size: $font-size-small;
+          }
+        }
+      }
+    }
+  }
 
-  section.treatments-dentalEsthetics {
-    height:1320px;
+  section.treatments-dental-esthetics {
+    height: 1050px;
     width: 100%;
     margin-top: -16px;
     text-align: center;
-    .treatments-dentalEsthetics-content{
-      padding: 20px 80px;
-
+    .treatments-dental-esthetics-content {
+      max-width: 800px;
+      margin:0 auto;
+      margin-top: 80px;
     }
     .treatments-content-item {
-      margin: 62px 26px 26px 40px;
+      width: 100%;
       background-color: $color-light-gray;
+      @include media-breakpoint-down(md) {
+        margin-top: 30px;
+      }
       .item-image {
         padding-top: 58px;
-        padding-bottom:20px;
+        padding-bottom: 20px;
         img {
           width: 184px;
           height: auto;
         }
       }
       .item-description {
+        max-width: 275px;
+        margin:0 auto;
         h5 {
           margin-top: 22px;
           font-size: $font-size-x1-large;
@@ -228,6 +234,7 @@
         h6 {
           font-size: $font-size-small;
           font-weight: bold;
+          font-family: Inconsolata;
         }
         p {
           font-size: $font-size-small;
