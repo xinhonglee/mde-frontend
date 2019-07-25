@@ -42,3 +42,10 @@
     padding: 14px 40px;
   }
 }
+.button-extend-large-round {
+  @extend .button-round;
+  padding: 14px 92px;
+  @include media-breakpoint-down(sm) {
+    padding: 14px 50px;
+  }
+}

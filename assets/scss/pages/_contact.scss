@@ -1,4 +1,5 @@
 #page_contact {
+  font-family: Yantramanav;
   section.contact-form {
     background: $color-app-secondary;
     padding-bottom: 250px;
@@ -10,7 +11,6 @@
       h1 {
         text-align: center;
         font-size: $font-size-x5-large;
-        font-family: Yantramanav;
         font-weight: bold;
       }
     }
@@ -21,7 +21,7 @@
       margin-top: 70px;
 
       .view-more {
-        margin-top: 100px;
+        margin-top: 84px;
         text-align: center;
       }
 
@@ -43,7 +43,12 @@
       }
       .custom-control {
         padding-left: 2rem;
-        margin-top: 15px;
+        margin-top: 34px;
+        font-family: Inconsolata;
+        font-size:$font-size-x2-small;
+        .custom-control-label{
+          padding-top: 6px;
+        }
       }
       .custom-control-label::before,
       .custom-control-label::after {

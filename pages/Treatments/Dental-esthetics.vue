@@ -2,7 +2,7 @@
   <div id="page_treatments" class="main">
     <app-page-treatments-header/>
     <app-page-treatments-menu/>
-    <app-page-treatments-dental-content/>
+    <app-page-treatments-dental-esthetics-content/>
   </div>
 </template>
 
@@ -10,14 +10,14 @@
   import {paintCommon} from "~/assets/js/animate";
   import AppPageTreatmentsHeader from "~/components/Pages/Treatments/SectionHeader";
   import AppPageTreatmentsMenu from "~/components/Pages/Treatments/SectionMenuBar";
-  import AppPageTreatmentsDentalContent from "~/components/Pages/Treatments/SectionDental";
+  import AppPageTreatmentsDentalEstheticsContent from "~/components/Pages/Treatments/SectionDentalEsthetics";
 
   export default {
     name: "app-page-treatments-dental-esthetics",
     components: {
       AppPageTreatmentsHeader,
       AppPageTreatmentsMenu,
-      AppPageTreatmentsDentalContent,
+      AppPageTreatmentsDentalEstheticsContent,
     },
     data() {
       return {

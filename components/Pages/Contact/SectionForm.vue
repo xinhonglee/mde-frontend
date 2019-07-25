@@ -70,7 +70,7 @@
         </b-form-checkbox>
 
         <div class="view-more">
-          <a href="#" class="button-extend-normal-round">Send</a>
+          <a href="#" class="button-extend-large-round">Send</a>
         </div>
 
       </b-form>

@@ -2,24 +2,24 @@
   <section class="news-content">
     <div class="container">
       <b-row>
-        <b-col md="12">
-          <div id="slider">
-            <no-ssr>
-              <slick-slide ref="slick" :options="slickOptions" v-if="news.length > 0">
-                <div class="slider-item" v-for="(item, index) in news" :key="index">
-                  <div class="slider-item-image">
-                    <!--<img :src="item.image" alt="News image">-->
-                  </div>
-                  <div class="slider-item-description">
-                    <p>{{item.description}}</p>
-                    <small>{{item.publishedAt}} - {{item.author}}</small>
-                  </div>
+      <b-col md="12">
+        <div id="slider">
+          <no-ssr>
+            <slick-slide ref="slick" :options="slickOptions" v-if="news.length > 0">
+              <div class="slider-item" v-for="(item, index) in news" :key="index">
+                <div class="slider-item-image">
+                  <!--<img :src="item.image" alt="News image">-->
                 </div>
-              </slick-slide>
-            </no-ssr>
-          </div>
-        </b-col>
-      </b-row>
+                <div class="slider-item-description">
+                  <p>{{item.description}}</p>
+                  <small>{{item.publishedAt}} - {{item.author}}</small>
+                </div>
+              </div>
+            </slick-slide>
+          </no-ssr>
+        </div>
+      </b-col>
+    </b-row>
       <div class="news-list">
         <h2>More News</h2>
         <b-row>
