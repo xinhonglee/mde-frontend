@@ -22,7 +22,7 @@
                             <!--</nuxt-link>-->
                         <!--</li>-->
                         <li class="menubar-item natural-medicine">
-                            <nuxt-link active-class="active" to="/treatments/natural-medicine" class="menu-link" exact>Natural@Medicine
+                            <nuxt-link active-class="active" to="/treatments/natural-medicine" class="menu-link" exact>Natural Medicine
                             </nuxt-link>
                         </li>
                     </ul>
