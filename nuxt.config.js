@@ -28,7 +28,6 @@ module.exports = {
    * Route
    */
   route: {
-
   },
   /*
   ** Plugins to load before mounting the App

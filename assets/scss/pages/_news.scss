@@ -44,6 +44,9 @@
         h2 {
           font-size: $font-size-x2-large;
           font-weight: bold;
+          @include media-breakpoint-down(sm) {
+            margin-top: 20px;
+          }
         }
       }
       .news-content-description {

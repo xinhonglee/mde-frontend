@@ -96,7 +96,7 @@
       .appointment-left-content {
         max-width: 480px;
         float: right;
-        padding: 50px 20px;
+        padding: 80px 20px;
         @include media-breakpoint-down(lg) {
           float: none;
         }
@@ -104,17 +104,16 @@
         .appointment-left-title {
           h2 {
             @include home-subTitle;
-            margin-top: 40px;
           }
         }
         .appointment-left-description {
+          margin-top: 22px;
           p {
             font-size: $font-size-large;
-            margin-top: 22px;
           }
         }
         .appointment-left-button {
-          margin-top: 80px;
+          margin-top: 30px;
         }
       }
     }
@@ -123,10 +122,10 @@
       flex: 1;
       #map {
         width: 100%;
-        height: 525px;
+        height: 100%;
         background-color: $color-app-third;
         text-align: center;
-        @include media-breakpoint-down(lg) {
+        @include media-breakpoint-down(md) {
           height: 450px;
         }
       }

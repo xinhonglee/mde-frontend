@@ -6,11 +6,11 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto navbar-content">
-            <li class="nav-item"><nuxt-link active-class="active" to="/home" class="nav-link" exact>Home</nuxt-link></li>
-            <li class="nav-item"><nuxt-link active-class="active" to="/treatments/dental" class="nav-link" exact>Treatments</nuxt-link></li>
-            <li class="nav-item"><nuxt-link active-class="active" to="/news" class="nav-link" exact>News</nuxt-link></li>
-            <li class="nav-item"><nuxt-link active-class="active" to="/#" class="nav-link" exact>Webshop</nuxt-link></li>
-            <li class="nav-item"><nuxt-link active-class="active" to="/contact" class="nav-link" exact>Contact</nuxt-link></li>
+            <li class="nav-item"><nuxt-link active-class="active" to="/home" class="nav-link">Home</nuxt-link></li>
+            <li class="nav-item"><nuxt-link active-class="active" to="/treatments" class="nav-link">Treatments</nuxt-link></li>
+            <li class="nav-item"><nuxt-link active-class="active" to="/news" class="nav-link">News</nuxt-link></li>
+            <li class="nav-item"><nuxt-link active-class="active" to="/#" class="nav-link">Webshop</nuxt-link></li>
+            <li class="nav-item"><nuxt-link active-class="active" to="/contact" class="nav-link">Contact</nuxt-link></li>
           </b-navbar-nav>
           <b-navbar-nav class="appointment ml-auto">
             <a href="#" class="button-small-round">Book an appointment</a>
