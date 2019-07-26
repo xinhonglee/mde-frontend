@@ -23,9 +23,7 @@
       </div>
     </div>
     <div class="appointment-right">
-      <div id="map">
         <app-google-map></app-google-map>
-      </div>
     </div>
   </section>
 </template>
