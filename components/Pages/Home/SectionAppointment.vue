@@ -18,10 +18,10 @@
             <p class="d-flex"><span>Address:</span><strong>&nbsp;Avenida Marítima 29, 38530 Candelaria, Santa Cruz de
               Tenerife, Spain</strong></p>
             <p>Phone: <strong>+34 822 775 133</strong>, <strong>+34 674 354 930</strong></p>
-            <p>Or send us an email to <a href="mailto:<citas@dentalesthetics.es>">citas@dentalesthetics.es</a></p>
+            <p>Use the button below to send usd an email</p>
           </div>
           <div class="appointment-right-button">
-            <a href="#" class="button-extend-normal-round">Reach out</a>
+            <a href="/contact" class="button-extend-normal-round">Reach out</a>
           </div>
         </div>
       </div>

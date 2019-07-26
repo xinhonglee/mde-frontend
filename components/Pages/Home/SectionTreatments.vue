@@ -23,7 +23,7 @@
               <br>
             </div>
             <div class="item-button">
-              <a href="#" class="button-extend-small-round">Read More</a>
+              <a href="/treatments" class="button-extend-small-round">Read More</a>
             </div>
           </div>
         </b-col>
@@ -38,7 +38,7 @@
                 treatments ensure you feel the best version of yourself.</p>
             </div>
             <div class="item-button">
-              <a href="#" class="button-extend-small-round">Read More</a>
+              <a href="/treatments/esthetics" class="button-extend-small-round">Read More</a>
             </div>
           </div>
         </b-col>
@@ -53,7 +53,7 @@
                 knowledge and experience of natural medicine and nutrition.</p>
             </div>
             <div class="item-button">
-              <a href="#" class="button-extend-small-round">Read More</a>
+              <a href="/treatments/natural-medicine" class="button-extend-small-round">Read More</a>
             </div>
           </div>
         </b-col>
