@@ -1,14 +1,11 @@
 .app-body {
   @include animate-common-ty;
   background-color: $color-white;
-  min-height: $height-body;
-
   .main {
     height: 100%;
   }
 }
 
 .section-base {
-  padding: 106px 0;
+  padding: 79.5px 0;
 }
-

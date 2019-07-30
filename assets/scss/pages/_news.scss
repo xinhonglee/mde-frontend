@@ -1,0 +1,138 @@
+#page_news {
+  padding-bottom: 40px;
+  font-family: Yantramanav;
+  .container {
+    z-index: 1;
+  }
+  section.header {
+    height: $height-treatments-head;
+    background-color: $color-app-primary;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    .headline {
+      position: relative;
+      z-index: 1;
+
+      h1 {
+        margin-top: -110px;
+        font-size: $font-size-x5-large;
+        color: $color-light-black;
+        font-weight: bold;
+        @include media-breakpoint-down(sm) {
+          margin-top: -80px;
+          font-size: $font-size-x3-large;
+        }
+      }
+    }
+  }
+
+  section.news-content {
+    margin-top: -130px;
+
+    .active-news {
+      color: $color-light-black;
+
+      .news-image {
+        width: 100%;
+        height: 410px;
+        background: $color-app-third;
+      }
+
+      .news-content-title {
+        h2 {
+          font-size: $font-size-x2-large;
+          font-weight: bold;
+          @include media-breakpoint-down(sm) {
+            margin-top: 20px;
+          }
+        }
+      }
+      .news-content-description {
+        margin-top: 20px;
+        p {
+          font-size: $font-size-x1-large;
+          line-height: 1.33;
+        }
+        small {
+          font-size: $font-size-x2-small;
+          font-family: Inconsolata;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .news-list {
+      h2 {
+        text-align: center;
+        margin: 50px 0;
+        font-size: $font-size-x2-large;
+        color: $color-light-black;
+      }
+      .news-item {
+        margin-top: 50px;
+      }
+      .news-image {
+        width: 100%;
+        height: 250px;
+        background: $color-app-third;
+      }
+
+      .news-content-title {
+        margin-top: 18px;
+        h5 {
+          font-size: $font-size-large;
+          font-weight:bold;
+        }
+      }
+      .news-content-description {
+        margin-top: 15px;
+        p {
+          font-size: $font-size-small;
+          line-height: 1.28;
+        }
+        small {
+          font-size: $font-size-x2-small;
+          font-weight: bold;
+          font-family: Inconsolata;
+        }
+      }
+    }
+
+    .view-more {
+      margin-top: 88px;
+      text-align: center;
+    }
+
+    .slider-item {
+      &-image {
+        height: 400px;
+        max-width: 720px;
+        background: $color-app-third;
+        margin: 0 auto;
+      }
+      &-description {
+        max-width: 720px;
+        margin: 0 auto;
+        margin-top: 100px;
+        color: $color-light-black;
+
+        p {
+          font-size: $font-size-x1-large;
+        }
+        small {
+          display: block;
+          margin-top: 40px;
+          font-size: $font-size-x1-small;
+          font-weight: bold;
+          font-family: Inconsolata;
+        }
+      }
+    }
+
+    .slick-next, .slick-prev {
+      top: 180px;
+    }
+  }
+}

@@ -1,8 +1,7 @@
 <template>
   <div id="page_treatments" class="main">
-    <app-page-treatments-header/>
-    <app-page-treatments-menu/>
-    <app-page-treatments-dental-content/>
+    <app-page-treatments-header :title="title"/>
+    <app-page-treatments-treat-content/>
   </div>
 </template>
 
@@ -10,24 +9,27 @@
   import {paintCommon} from "~/assets/js/animate";
   import AppPageTreatmentsHeader from "~/components/Pages/Treatments/SectionHeader";
   import AppPageTreatmentsMenu from "~/components/Pages/Treatments/SectionMenuBar";
-  import AppPageTreatmentsDentalContent from "~/components/Pages/Treatments/SectionDental";
+  import AppPageTreatmentsTreatContent from "~/components/Pages/Treatments/SectionTreat";
 
   export default {
-    name: "app-page-treatments-dental",
+    name: "app-page-treatments-treat",
     components: {
       AppPageTreatmentsHeader,
       AppPageTreatmentsMenu,
-      AppPageTreatmentsDentalContent,
+      AppPageTreatmentsTreatContent,
     },
     data() {
-      return {};
+      return {
+        title: 'Title treatment'
+      };
     },
     mounted() {
+      console.log(this.title);
       paintCommon();
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Treatment',
       meta: [
         {
           hid: 'description',

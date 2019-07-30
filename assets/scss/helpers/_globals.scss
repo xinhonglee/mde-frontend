@@ -28,5 +28,33 @@ body {
 .small-container {
   margin: 0 auto;
   position: relative;
-  max-width: 1088px;
+  max-width: 785px;
+}
+
+.slick-next {
+  top: 110px;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  background: url(~assets/images/icons/right-arrow.svg) no-repeat;
+  opacity: 0.8;
+}
+
+.slick-prev {
+  top: 110px;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+  background: url(~assets/images/icons/left-arrow.svg) no-repeat;
+  opacity: 0.8;
+}
+.slick-arrow {
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
 }

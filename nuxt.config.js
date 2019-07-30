@@ -27,12 +27,16 @@ module.exports = {
   /**
    * Route
    */
-  route: {},
+  route: {
+  },
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    "~plugins/global.js"
+    "~plugins/global.js",
+    { src: "~plugins/slick-slide.js", ssr: false },
+    { src: '~/plugins/vuex-persist', ssr: false },
+    "~/plugins/eventBus"
   ],
   /*
   ** Nuxt.js modules
@@ -56,6 +60,6 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-    }
+    },
   }
 }

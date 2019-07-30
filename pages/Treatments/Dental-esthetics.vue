@@ -2,7 +2,7 @@
   <div id="page_treatments" class="main">
     <app-page-treatments-header/>
     <app-page-treatments-menu/>
-    <app-page-treatments-dental-content/>
+    <app-page-treatments-dental-esthetics-content/>
   </div>
 </template>
 
@@ -10,24 +10,27 @@
   import {paintCommon} from "~/assets/js/animate";
   import AppPageTreatmentsHeader from "~/components/Pages/Treatments/SectionHeader";
   import AppPageTreatmentsMenu from "~/components/Pages/Treatments/SectionMenuBar";
-  import AppPageTreatmentsDentalContent from "~/components/Pages/Treatments/SectionDental";
+  import AppPageTreatmentsDentalEstheticsContent from "~/components/Pages/Treatments/SectionDentalEsthetics";
 
   export default {
     name: "app-page-treatments-dental-esthetics",
     components: {
       AppPageTreatmentsHeader,
       AppPageTreatmentsMenu,
-      AppPageTreatmentsDentalContent,
+      AppPageTreatmentsDentalEstheticsContent,
     },
     data() {
-      return {};
+      return {
+        backgroundColor: `linear-gradient(to right, #cde8f0, #cde8f0 50%, #c0e4da 50%, #c0e4da 100%)`,
+      };
     },
     mounted() {
       paintCommon();
+      this.$store.commit('background/set', this.backgroundColor);
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Dental Esthetics Category',
       meta: [
         {
           hid: 'description',

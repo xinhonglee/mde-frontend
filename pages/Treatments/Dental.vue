@@ -13,21 +13,24 @@
   import AppPageTreatmentsDentalContent from "~/components/Pages/Treatments/SectionDental";
 
   export default {
-    name: "app-page-treatments-esthetics",
+    name: "app-page-treatments-dental",
     components: {
       AppPageTreatmentsHeader,
       AppPageTreatmentsMenu,
       AppPageTreatmentsDentalContent,
     },
     data() {
-      return {};
+      return {
+        backgroundColor: '#cde8f0',
+      };
     },
     mounted() {
       paintCommon();
+      this.$store.commit('background/set', this.backgroundColor);
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Dental Category',
       meta: [
         {
           hid: 'description',

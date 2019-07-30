@@ -1,7 +1,7 @@
 .app-header_contact {
   @include animate-common-ty;
   background: $color-white;
-  font-size: $font-size-default;
+  font-size: $font-size-small;
   height: $height-header_contact;
   text-align: center;
   font-family: Inconsolata;
@@ -27,8 +27,8 @@
     padding-top: 18px;
     @include animate-common-ty;
     img {
-      height: 83px;
-      width: auto;
+      height: auto;
+      width: 50.7px;
       @include media-breakpoint-down(sm) {
         height: 45px;
       }
@@ -54,11 +54,11 @@
     }
 
     .nav-item {
-      margin-left: 94px;
+      margin-left: 63px;
       text-align: left;
-      @include media-breakpoint-down(lg) {
-        margin-left: 20px;
-      }
+      //@include media-breakpoint-down(lg) {
+      //  margin-left: 20px;
+      //}
       @include media-breakpoint-down(md) {
         background: $color-white;
         border-radius: 5px;
@@ -68,7 +68,7 @@
       .nav-link {
         color: $color-light-black;
         display: inline-block;
-        font-size: 18px;
+        font-size: $font-size-default;
         font-weight: bold;
         padding: 0;
         position: relative;
@@ -82,7 +82,7 @@
           background: $color-light-black;
           content: " ";
           display: block;
-          height: 5px;
+          height: 4.5px;
           margin-top: 5px;
           position: absolute;
           transform: scale(0);
@@ -91,7 +91,7 @@
         }
         &.active::after {
           transform: scale(1);
-          @include media-breakpoint-down(sm) {
+          @include media-breakpoint-down(md) {
             visibility: hidden;
           }
         }
@@ -102,8 +102,8 @@
     padding-left: 52px;
     padding-bottom: 20px;
     @include media-breakpoint-down(md) {
-      padding-left: 0px;
-      padding-bottom: 0px;
+      padding-left: 0;
+      padding-bottom: 0;
     }
   }
 

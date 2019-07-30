@@ -1,9 +1,15 @@
 #page_treatments {
-
+  padding-bottom: 110px;
+  font-family: Yantramanav;
+  .container {
+    z-index: 1;
+  }
   section.header {
     height: $height-treatments-head;
     background-color: $color-app-primary;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 
     .headline {
       position: relative;
@@ -11,25 +17,34 @@
 
       h1 {
         margin-top: -110px;
-        font-size: 54px;
+        font-size: $font-size-x5-large;
         color: $color-light-black;
+        font-weight: bold;
         @include media-breakpoint-down(sm) {
           margin-top: -80px;
-          font-size: 40px;
+          font-size: $font-size-x3-large;
         }
       }
     }
 
     .header-bottom_back {
       position: absolute;
-      bottom: -10px;
-      height: 20vh;
-      width: 100%;
+      bottom: 0;
+      height: 175px;
+      width: 985px;
       z-index: 0;
-
       background: url(~assets/images/logo.svg) no-repeat;
       background-size: cover;
       background-position: top;
+      left: 50%;
+      transform: translateX(-50%);
+      @include media-breakpoint-down(lg) {
+        width: 850px;
+      }
+      @include media-breakpoint-down(md) {
+        width: 720px;
+        height: 125px;
+      }
     }
   }
 
@@ -42,25 +57,24 @@
     .menu-description {
       text-align: center;
       max-width: 100%;
-      margin-top: -35px;
+      margin-top: -22px;
       p {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: $font-size-small;
         margin: 0 auto;
-        max-width: 720px;
+        max-width: 600px;
       }
     }
     .menu-bar {
-      margin-top: 38px;
+      margin-top: 25px;
       padding-bottom: 12px;
 
       .menubar-content {
-        font-size: 26px;
+        font-size: $font-size-x2-x-large;
         list-style: none;
         display: flex;
         padding: 0;
         text-align: center;
-        max-width: 896px;
+        max-width: 600px;
         margin: 0 auto;
 
         @include media-breakpoint-down(md) {
@@ -74,16 +88,16 @@
             flex: 1;
           }
           &.dental-esthetics {
-            flex: 1.5;
+            flex: 2;
           }
           &.natural-medicine {
-            flex: 1.5;
+            flex: 2;
           }
 
           .menu-link {
             color: $color-light-black;
             display: inline-block;
-            font-size: 30px;
+            font-size: $font-size-x2-x-large;
             padding: 0;
             position: relative;
             text-decoration: none;
@@ -96,7 +110,7 @@
               background: $color-light-black;
               content: " ";
               display: block;
-              height: 5px;
+              height: 4.5px;
               margin-top: 5px;
               position: absolute;
               transform: scale(0);
@@ -113,33 +127,162 @@
   }
 
   section.treatments-content {
+    margin-top: -16px;
     text-align: center;
+    h3 {
+      margin-top: 50px;
+      font-size: $font-size-x2-large;
+    }
     .treatments-content-item {
-      margin-top: 80px;
-      padding: 50px 20px 10px 20px;
+      margin-top: 108px;
       background-color: $color-white;
       .item-image {
         img {
-          width: 70px;
-          height: 80px;
+          width: 50.7px;
+          height: auto;
         }
       }
       .item-description {
         h5 {
-          margin-top: 18px;
-
+          margin-top: 14px;
+          font-size: $font-size-x1-large;
+        }
+        h6 {
+          font-size: $font-size-small;
         }
         p {
-          margin-top: 37px;
-          font-size: 16px;
+          font-size: $font-size-small;
+          max-width: 250px;
+          margin: 0 auto;
+          margin-top: 25px;
         }
       }
       .item-button {
-        margin-top: 26px;
+        margin-top: 15px;
       }
     }
-    .body-content-group {
-      margin-bottom: 142px;
+
+    #slider {
+      margin-top: -20px;
+    }
+
+    .slider-item {
+
+      &-image > img {
+        width: 98px;
+        margin: 0 auto;
+      }
+
+      &-description {
+        text-align: left;
+        font-size: $font-size-large;
+        max-width: 717px;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+
+      &-specs {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 80px;
+        &-item {
+          flex: 1;
+          &-description {
+            max-width: 260px;
+            margin: 0 auto;
+            margin-top: 15px;
+            font-size: $font-size-small;
+          }
+        }
+      }
+    }
+  }
+
+  section.treatments-dental-esthetics {
+    height: 1050px;
+    width: 100%;
+    margin-top: -16px;
+    text-align: center;
+    .treatments-dental-esthetics-content {
+      max-width: 800px;
+      margin:0 auto;
+      margin-top: 80px;
+    }
+    .treatments-content-item {
+      width: 100%;
+      background-color: $color-light-gray;
+      @include media-breakpoint-down(md) {
+        margin-top: 30px;
+      }
+      .item-image {
+        padding-top: 58px;
+        padding-bottom: 20px;
+        img {
+          width: 184px;
+          height: auto;
+        }
+      }
+      .item-description {
+        max-width: 275px;
+        margin:0 auto;
+        h5 {
+          margin-top: 22px;
+          font-size: $font-size-x1-large;
+          font-weight: bold;
+        }
+        h6 {
+          font-size: $font-size-small;
+          font-weight: bold;
+          font-family: Inconsolata;
+        }
+        p {
+          font-size: $font-size-small;
+          max-width: 250px;
+          margin: 0 auto;
+          margin-top: 16px;
+        }
+      }
+      .item-button {
+        margin-top: 30px;
+        padding-bottom: 40px;
+      }
+    }
+
+    #slider {
+      margin-top: -20px;
+    }
+
+    .slider-item {
+
+      &-image > img {
+        width: 98px;
+        margin: 0 auto;
+      }
+
+      &-description {
+        text-align: left;
+        font-size: $font-size-large;
+        max-width: 717px;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+
+      &-specs {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 80px;
+        &-item {
+          flex: 1;
+          &-description {
+            max-width: 260px;
+            margin: 0 auto;
+            margin-top: 15px;
+            font-size: $font-size-small;
+          }
+        }
+      }
     }
   }
 }

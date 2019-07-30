@@ -1,26 +1,31 @@
 <template>
-  <div id="page_webshop" class="main">
-    <div class="container">
-      <div class="headline text-center">
-        <h1>Webshop</h1>
-      </div>
-    </div>
+  <div id="page_news" class="main">
+    <app-page-news-header/>
+    <app-page-news-list/>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
+  import AppPageNewsHeader from "~/components/Pages/News/SectionHeader";
+  import AppPageNewsList from "~/components/Pages/News/SectionList";
+
   export default {
-    name: "app-page-webshop",
+    name: "app-page-news",
+    components: {
+      AppPageNewsHeader,
+      AppPageNewsList
+    },
     data() {
       return {};
     },
     mounted() {
       paintCommon();
+      this.$store.commit('background/default');
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'News',
       meta: [
         {
           hid: 'description',

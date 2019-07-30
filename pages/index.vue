@@ -36,10 +36,11 @@
     },
     mounted() {
       paintCommon();
+      this.$store.commit('background/default');
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Home',
       meta: [
         {
           hid: 'description',

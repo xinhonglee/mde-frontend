@@ -1,6 +1,6 @@
 export default function init() {
   if (process.browser) {
-    const API_KEY = 'AIzaSyCKOy_lv2WT1D1YIlNFR_HA7UKbnZBxJ0s';
+    const API_KEY = 'AIzaSyDeiSFW8x2cam7b49aYiwqhnu5fuh36zYM';
     const CALLBACK_NAME = 'gmapsCallback';
     let initialized = !!window.google;
     let resolveInitPromise;

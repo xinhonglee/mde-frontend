@@ -1,26 +1,32 @@
 <template>
   <div id="page_contact" class="main">
-    <div class="container">
-      <div class="headline text-center">
-        <h1>Contact</h1>
-      </div>
-    </div>
+    <app-page-contact-form/>
+    <app-page-contact-appointment/>
   </div>
 </template>
 
 <script>
   import {paintCommon} from "~/assets/js/animate";
+  import AppPageContactForm from "~/components/Pages/Contact/SectionForm";
+  import AppPageContactAppointment from "~/components/Pages/Contact/SectionAppointment";
   export default {
     name: "app-page-contact",
+    components: {
+      AppPageContactForm,
+      AppPageContactAppointment
+    },
     data() {
-      return {};
+      return {
+        backgroundColor: '#cde8f0'
+      };
     },
     mounted() {
       paintCommon();
+      this.$store.commit('background/set', this.backgroundColor);
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Contact',
       meta: [
         {
           hid: 'description',

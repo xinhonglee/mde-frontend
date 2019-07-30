@@ -1,0 +1,134 @@
+#page_contact {
+  font-family: Yantramanav;
+  section.contact-form {
+    background: $color-app-secondary;
+    padding-bottom: 250px;
+    position: relative;
+    overflow: hidden;
+
+    .contact-form-title {
+      margin-top: 42px;
+      h1 {
+        text-align: center;
+        font-size: $font-size-x5-large;
+        font-weight: bold;
+      }
+    }
+
+    form {
+      max-width: 717px;
+      margin: 0 auto;
+      margin-top: 70px;
+
+      .view-more {
+        margin-top: 84px;
+        text-align: center;
+      }
+
+      .form-control {
+        border-radius: unset;
+      }
+
+      ::-webkit-input-placeholder {
+        font-size: $font-size-x2-small;
+      }
+      ::-moz-placeholder {
+        font-size: $font-size-x2-small;
+      }
+      :-ms-input-placeholder {
+        font-size: $font-size-x2-small;
+      }
+      ::placeholder {
+        font-size: $font-size-x2-small;
+      }
+      .custom-control {
+        padding-left: 2rem;
+        margin-top: 34px;
+        font-family: Inconsolata;
+        font-size:$font-size-x2-small;
+        .custom-control-label{
+          padding-top: 6px;
+        }
+      }
+      .custom-control-label::before,
+      .custom-control-label::after {
+        top: -0.02rem;
+        left: -2rem;
+        border-radius: unset;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      textarea {
+        overflow-y: hidden !important;
+      }
+    }
+
+    .contact-form-back {
+      position: absolute;
+      bottom: 0;
+      height: 200px;
+      width: 985px;
+      z-index: 0;
+      background: url(~assets/images/logo.svg) no-repeat;
+      background-size: cover;
+      background-position: top;
+      left: 50%;
+      transform: translateX(-50%);
+      @include media-breakpoint-down(lg) {
+        width: 850px;
+      }
+      @include media-breakpoint-down(md) {
+        width: 720px;
+      }
+    }
+
+  }
+
+  section.appointment {
+    display: flex;
+    flex-direction: row;
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+    }
+
+    .appointment-left {
+      flex: 1;
+      .appointment-left-content {
+        max-width: 480px;
+        float: right;
+        padding: 80px 20px;
+        @include media-breakpoint-down(lg) {
+          float: none;
+        }
+
+        .appointment-left-title {
+          h2 {
+            @include home-subTitle;
+          }
+        }
+        .appointment-left-description {
+          margin-top: 22px;
+          p {
+            font-size: $font-size-large;
+          }
+        }
+        .appointment-left-button {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    .appointment-right {
+      flex: 1;
+      #map {
+        width: 100%;
+        height: 100%;
+        background-color: $color-app-third;
+        text-align: center;
+        @include media-breakpoint-down(md) {
+          height: 450px;
+        }
+      }
+    }
+  }
+}

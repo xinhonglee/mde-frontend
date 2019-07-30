@@ -13,21 +13,24 @@
   import AppPageTreatmentsDentalContent from "~/components/Pages/Treatments/SectionDental";
 
   export default {
-    name: "app-page-treatments-natural-medicine",
+    name: "app-page-treatments-esthetics",
     components: {
       AppPageTreatmentsHeader,
       AppPageTreatmentsMenu,
       AppPageTreatmentsDentalContent,
     },
     data() {
-      return {};
+      return {
+        backgroundColor: '#c0e4da',
+      };
     },
     mounted() {
       paintCommon();
+      this.$store.commit('background/set', this.backgroundColor);
     },
     layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Esthetics Category',
       meta: [
         {
           hid: 'description',

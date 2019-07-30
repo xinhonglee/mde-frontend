@@ -7,17 +7,16 @@
         </div>
       </div>
     </div>
-    <div class="header-bottom_back"></div>
   </section>
 </template>
 
 <script>
   export default {
-    name: "app-page-treatments-header",
+    name: "app-page-news-header",
     props: {
       title: {
         type: String,
-        default: 'All Treatments'
+        default: 'News'
       },
     },
     data() {
