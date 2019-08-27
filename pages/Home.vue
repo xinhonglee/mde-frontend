@@ -34,7 +34,7 @@
       return {};
     },
     mounted() {
-      // paintCommon();
+      paintCommon();
       // this.$store.commit('background/default');
     },
     layout: 'About',
