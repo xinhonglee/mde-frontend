@@ -13,29 +13,29 @@
 <script>
   import {paintCommon} from "~/assets/js/animate";
   import AppPageHomeHeader from "~/components/Pages/Home/SectionHeader";
-  import AppPageHomeTenerife from "../components/Pages/Home/SectionTenerife";
-  import AppPageHomeAbout from "../components/Pages/Home/SectionAbout";
-  import AppPageHomeTreatments from "../components/Pages/Home/SectionTreatments";
-  import AppPageHomeShop from "../components/Pages/Home/SectionShop";
-  import AppPageHomeNews from "../components/Pages/Home/SectionNews";
-  import AppPageHomeAppointment from "../components/Pages/Home/SectionAppointment";
+  // import AppPageHomeTenerife from "../components/Pages/Home/SectionTenerife";
+  // import AppPageHomeAbout from "../components/Pages/Home/SectionAbout";
+  // import AppPageHomeTreatments from "../components/Pages/Home/SectionTreatments";
+  // import AppPageHomeShop from "../components/Pages/Home/SectionShop";
+  // import AppPageHomeNews from "../components/Pages/Home/SectionNews";
+  // import AppPageHomeAppointment from "../components/Pages/Home/SectionAppointment";
   export default {
     name: "app-page-about",
     components: {
-      AppPageHomeTenerife,
+      // AppPageHomeTenerife,
       AppPageHomeHeader,
-      AppPageHomeAbout,
-      AppPageHomeTreatments,
-      AppPageHomeShop,
-      AppPageHomeNews,
-      AppPageHomeAppointment
+      // AppPageHomeAbout,
+      // AppPageHomeTreatments,
+      // AppPageHomeShop,
+      // AppPageHomeNews,
+      // AppPageHomeAppointment
     },
     data() {
       return {};
     },
     mounted() {
-      paintCommon();
-      this.$store.commit('background/default');
+      // paintCommon();
+      // this.$store.commit('background/default');
     },
     layout: 'About',
     head: {
