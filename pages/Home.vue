@@ -1,12 +1,12 @@
 <template>
   <div id="page_home" class="main">
     <app-page-home-header/>
-    <app-page-home-tenerife/>
-    <app-page-home-about/>
-    <app-page-home-treatments/>
-    <app-page-home-shop/>
-    <app-page-home-news/>
-    <app-page-home-appointment/>
+    <!--<app-page-home-tenerife/>-->
+    <!--<app-page-home-about/>-->
+    <!--<app-page-home-treatments/>-->
+    <!--<app-page-home-shop/>-->
+    <!--<app-page-home-news/>-->
+    <!--<app-page-home-appointment/>-->
   </div>
 </template>
 
